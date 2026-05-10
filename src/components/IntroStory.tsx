@@ -15,7 +15,7 @@ export function IntroStory() {
         </div>
         <div className="grid gap-10 lg:grid-cols-[0.56fr_1.44fr] lg:items-center">
           <div className="max-w-sm">
-            <div className="mt-8 max-w-[18rem] overflow-hidden rounded-[2rem] border border-white/70 bg-white/70 p-3 shadow-soft backdrop-blur sm:max-w-[20rem]">
+            <div className="max-w-[18rem] overflow-hidden rounded-[2rem] border border-white/70 bg-white/70 p-3 shadow-soft backdrop-blur sm:max-w-[20rem]">
               <div className="relative overflow-hidden rounded-[1.5rem] bg-sand">
                 <Image
                   src="/ich.png"
@@ -29,7 +29,7 @@ export function IntroStory() {
               </div>
             </div>
           </div>
-          <div className="space-y-6 self-center text-base leading-8 text-ink/75 sm:text-lg">
+          <div className="space-y-6 lg:self-center text-base leading-8 text-ink/75 sm:text-lg">
             <p>
               Ich bin 44, seit 11 Jahren verheiratet und wir haben drei Kinder im
               Alter von 2, 8 und 10 Jahren. Unser Alltag ist schön, laut, praktisch
