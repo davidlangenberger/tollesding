@@ -25,9 +25,10 @@ export const products: Product[] = [
   {
     id: "eiswuerfelbox",
     title: "Eiswürfelbox mit Deckel",
-    shortBenefit: "Macht in einem Rutsch genug Eis, damit der Sommer nicht alle zwei Tage Nachschub braucht.",
+    shortBenefit:
+      "Diese Eiswürfelbox löst ein sehr banales, aber im Familienalltag erstaunlich nerviges Problem: zu wenig Eis im Gefrierfach. Statt ständig kleine Mengen nachzulegen, lässt sich hier auf einmal genug vorbereiten, damit mehrere Kindergetränke, Sommerabende und spontane Besuchsrunden entspannt abgedeckt sind.",
     storyTeaser:
-      "Unsere Kinder mixen im Sommer ihre eigenen alkoholfreien Cocktails. Diese Box war der Punkt, an dem aus nervigem Gefrierfach-Gefummel endlich eine einfache Familienlösung wurde.",
+      "Unsere Kinder mixen im Sommer mit großer Begeisterung ihre eigenen alkoholfreien Cocktails aus Säften, Minze und allem, was ihnen gerade einfällt. Was dabei nie fehlen darf, sind Eiswürfel. Genau deshalb war diese Box bei uns ein echter Wendepunkt: kein Gefrierfach-Gefummel mehr, kein dauerndes Nachproduzieren, sondern eine einfache Lösung, aus der die Kinder ihre Eiswürfel direkt selbst nehmen können.",
     category: "Küche",
     tags: ["Sommer", "Kinder", "Küche", "familientauglich"],
     amazonUrl:
@@ -38,9 +39,10 @@ export const products: Product[] = [
   {
     id: "wireless-ladestation",
     title: "3-in-1 Ladestation",
-    shortBenefit: "Ein Platz für iPhone, Apple Watch und AirPods statt Kabelsalat auf dem Nachttisch.",
+    shortBenefit:
+      "Wer keine Lust auf herumliegende Kabel, lose Ladepads und ein ständig verschwundenes Apple-Watch-Kabel hat, bekommt hier eine angenehm aufgeräumte Lösung. iPhone, Apple Watch und AirPods landen abends an einem festen Platz, laden gleichzeitig und sorgen nebenbei für deutlich mehr Ruhe auf dem Nachttisch oder Schreibtisch.",
     storyTeaser:
-      "Abends einfach reinlegen, morgens ist alles geladen. Kein loses Apple-Watch-Kabel mehr, nichts hängt herum und der Platz sieht gleich aufgeräumter aus.",
+      "Genau das war bei uns der Hauptgrund für den Kauf: dieses ständige Ein- und Ausstecken an mehreren Geräten hat genervt, und das lange Watch-Kabel lag immer irgendwie im Weg. Mit der Station reicht abends ein Griff, morgens ist alles geladen und der Platz sieht auch noch deutlich ordentlicher aus. Kein spektakuläres Produkt, aber eines, das jeden Tag leise seine Arbeit macht.",
     category: "Technik",
     tags: ["Technik", "Ordnung", "Schlafzimmer", "Apple"],
     amazonUrl: "https://www.amazon.de/dp/B0CCVBQTB8",
@@ -50,9 +52,10 @@ export const products: Product[] = [
   {
     id: "schuhtrockner",
     title: "Schuhtrockner mit Gebläse",
-    shortBenefit: "Trocknet nasse Fußballschuhe deutlich schneller als Heizung oder Warten.",
+    shortBenefit:
+      "Gerade für Familien mit sportlichen Kindern ist ein guter Schuhtrockner fast schon ein kleines Rettungsgerät. Nasse Fußballschuhe, feuchte Hallenschuhe oder durchweichte Winterstiefel trocknen deutlich schneller als auf der Heizung, und genau das macht an regnerischen Trainingswochen einen echten Unterschied.",
     storyTeaser:
-      "Ein Tipp aus dem Fußballumfeld, der bei uns voll eingeschlagen hat: Gerade im Herbst und Winter sind trockene Schuhe am nächsten Tag plötzlich kein Glücksspiel mehr.",
+      "Unser Sohn spielt fast täglich Fußball, und im Herbst oder Winter war die Frage nach trockenen Schuhen am nächsten Morgen regelmäßig ein Thema. Der entscheidende Tipp kam aus dem Fußballumfeld: nicht irgendein heizender Schuhtrockner, sondern ein Modell mit Gebläse. Seitdem sind selbst richtig nasse Schuhe oft in ein bis zwei Stunden wieder einsatzbereit. Das ist bei uns eines der Produkte mit dem klarsten Aha-Effekt überhaupt.",
     category: "Sport",
     tags: ["Sport", "Kinder", "Winter", "Fußball"],
     amazonUrl: "https://www.amazon.de/dp/B0FPQM6F2D",
@@ -62,9 +65,10 @@ export const products: Product[] = [
   {
     id: "bleistiftspitzer-dahle",
     title: "Elektrischer Bleistiftspitzer",
-    shortBenefit: "Spitzt viele Stifte schnell, sauber und ohne Batteriewechsel.",
+    shortBenefit:
+      "Mit Schulkindern wird Stiftespitzen schnell von einer Nebensache zu einer ziemlich regelmäßigen Aufgabe. Dieses Modell spart dabei nicht nur Zeit, sondern auch Nerven: es arbeitet schnell, sauber und vor allem mit Netzanschluss statt mit ständig leeren Batterien.",
     storyTeaser:
-      "Mit zwei Schulkindern wird Stiftespitzen schnell zur Wochenroutine. Das war der erste elektrische Spitzer, der stark genug war und im Alltag nicht genervt hat.",
+      "Wir haben vorher mehrere Spitzer ausprobiert, auch elektrische, aber wirklich überzeugt hat uns keiner. Entweder waren sie zu schwach oder im Alltag einfach umständlich. Dieser hier ist zwar nicht billig, aber es war der erste, bei dem wir das Gefühl hatten: genau so sollte das funktionieren. Besonders mit zwei Schulkindern merkt man schnell, wie angenehm es ist, wenn viele Stifte in kurzer Zeit sauber gespitzt sind.",
     category: "Schule",
     tags: ["Schule", "Kinder", "Alltag", "Netzbetrieb"],
     amazonUrl: "https://www.amazon.de/dp/B00G4A5A4G",
@@ -74,9 +78,10 @@ export const products: Product[] = [
   {
     id: "airtrack-matte",
     title: "AirTrack-Turnmatte",
-    shortBenefit: "Bringt Bewegung, Räder und Kopfstand sicherer nach drinnen, wenn draußen gerade nichts geht.",
+    shortBenefit:
+      "Wenn Kinder sich gern bewegen, turnen und auch zuhause nicht stillsitzen wollen, ist eine gute Turnmatte überraschend viel wert. Sie schafft einen sicheren Rahmen für Räder, Kopfstand und kleine Turneinheiten, gerade dann, wenn Garten, Verein oder Spielplatz wetterbedingt ausfallen.",
     storyTeaser:
-      "Im Winter wird der Flur bei uns manchmal zur kleinen Turnhalle. Die Matte macht genau das möglich, ohne dass gleich das ganze Haus mitleidet.",
+      "Unsere Tochter liebt Turnen, und genau im Winter fehlt oft der einfache Raum dafür. Die Matte passt bei uns in den Flur und macht daraus in wenigen Sekunden eine kleine Turnfläche. Im Sommer kann sie auch in den Garten wandern. Das Schöne daran ist weniger der große Effekt nach außen als die ganz praktische Tatsache, dass Bewegung zuhause plötzlich viel einfacher möglich wird.",
     category: "Sport",
     tags: ["Sport", "Kinder", "Winter", "Zuhause"],
     amazonUrl: "https://www.amazon.de/dp/B0BR5MHBMK",
@@ -86,9 +91,10 @@ export const products: Product[] = [
   {
     id: "microplane-reibe",
     title: "Microplane Parmesanreibe",
-    shortBenefit: "Reibt Parmesan so leicht, dass selbst tägliche Pasta-Routinen nicht nerven.",
+    shortBenefit:
+      "Eine gute Küchenreibe wirkt erstmal unscheinbar, bis man sie jeden zweiten Tag benutzt. Gerade für Parmesan, Zitronenschale oder feine Reibearbeiten ist dieses Modell deutlich angenehmer als viele Standardreiben: präziser, leichter zu führen und nach dem Essen schneller wieder sauber.",
     storyTeaser:
-      "Der Tipp kam aus der Familie und blieb. Seitdem ist Parmesanreiben bei uns keine kleine Küchenstrafarbeit mehr, sondern etwas, das sogar unser Sohn gern übernimmt.",
+      "Der Tipp kam von meiner Schwester, nachdem uns normale Reiben im Alltag immer wieder genervt hatten. Seitdem ist Parmesanreiben bei uns keine kleine Küchenstrafarbeit mehr. Unser Sohn liebt Parmesan auf Pasta, nutzt die Reibe selbst gern und genau das sagt schon viel: Wenn ein Produkt oft genutzt wird, leicht funktioniert und danach nicht kompliziert sauberzumachen ist, bleibt es einfach dauerhaft im Einsatz.",
     category: "Küche",
     tags: ["Küche", "Parmesan", "Familie", "bewährt"],
     amazonUrl: "https://www.amazon.de/dp/B00151WA06",
@@ -98,9 +104,10 @@ export const products: Product[] = [
   {
     id: "flaschen-trockner",
     title: "Flaschen-Trockner",
-    shortBenefit: "Gibt Trinkflaschen, Deckeln und Strohhalmen einen festen, sinnvollen Platz zum Trocknen.",
+    shortBenefit:
+      "In Haushalten mit mehreren Kindern tauchen jeden Abend erstaunlich viele Trinkflaschen, Deckel und Strohhalme auf. Ein guter Flaschentrockner bringt genau an dieser Stelle Ruhe rein: alles hat einen festen Platz, kippt nicht um und trocknet deutlich ordentlicher als irgendwo am Rand der Spüle.",
     storyTeaser:
-      "Mit drei Kindern stehen abends schnell sehr viele Flaschen herum. Dieser Trockner nimmt dem Küchenchaos erstaunlich zuverlässig den Wind aus den Segeln.",
+      "Mit drei Kindern ist das kein kleines Nebenthema, sondern echte Abendroutine. Nach Schule, Kita und Alltag stehen plötzlich mehrere Flaschen herum, dazu Deckel und wiederverwendbare Strohhalme. Genau deshalb mögen wir diesen Trockner so gern: er sieht nicht störend aus, funktioniert zuverlässig und nimmt dem typischen Küchenchaos am Abend erstaunlich effektiv den Wind aus den Segeln. Sogar Flaschen vom Wassersprudler passen bei uns gut hinein.",
     category: "Ordnung",
     tags: ["Ordnung", "Küche", "Kinder", "Schule"],
     amazonUrl: "https://www.amazon.de/dp/B09B1CL7HY",
@@ -110,9 +117,10 @@ export const products: Product[] = [
   {
     id: "produkt-8-pruefen",
     title: "TODO: Produkt 8 prüfen",
-    shortBenefit: "Dieser Link scheint auf einen zweiten elektrischen Bleistiftspitzer zu zeigen und muss noch verifiziert werden.",
+    shortBenefit:
+      "Dieser Eintrag bleibt bewusst offen, bis der richtige Artikel sauber verifiziert ist. Für eine Empfehlungsseite wie diese ist es wichtiger, einen Link ehrlich zurückzuhalten als vorschnell ein mögliches Duplikat oder ein falsch zugeordnetes Produkt zu veröffentlichen.",
     storyTeaser:
-      "Hier fehlt uns noch die saubere Zuordnung. Bevor wir etwas Falsches empfehlen, markieren wir das offen und prüfen den Link noch einmal.",
+      "Nach aktuellem Stand deutet vieles darauf hin, dass dieser Link noch einmal zu einer sehr ähnlichen oder identischen Spitzmaschine führt. Deshalb bleibt dieser Platz vorerst transparent markiert. Sobald der richtige Artikel bestätigt ist, kann hier die eigentliche Empfehlung mit echter Geschichte ergänzt werden.",
     category: "Unklar",
     tags: ["TODO", "prüfen", "Transparenz"],
     amazonUrl: "https://www.amazon.de/dp/B07M65BJCC",
