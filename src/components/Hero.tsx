@@ -1,9 +1,6 @@
-import { hasAmazonAssociateTag } from "@/lib/amazon";
 import { BrandLogo } from "./BrandLogo";
 
 export function Hero() {
-  const affiliateEnabled = hasAmazonAssociateTag();
-
   return (
     <section
       id="top"
@@ -34,18 +31,13 @@ export function Hero() {
               haben, gute Lösungen schätzen und keine Lust auf Ramsch, Fake-Tests oder
               beliebige Produktlisten mitbringen.
             </p>
-            <div className="mt-8 flex flex-col gap-4 sm:flex-row sm:items-center">
+            <div className="mt-8">
               <a
                 href="#produkte"
                 className="focus-ring inline-flex items-center justify-center rounded-full bg-ink px-6 py-3 text-sm font-semibold text-white shadow-soft transition hover:-translate-y-0.5 hover:bg-ink/90"
               >
                 Fundstücke entdecken
               </a>
-              <p className="max-w-xs text-sm leading-6 text-ink/60">
-                {affiliateEnabled
-                  ? "Einige Links sind Affiliate-Links. Für dich bleibt der Preis gleich."
-                  : "Die Produktlinks führen aktuell als normale externe Links zu Amazon."}
-              </p>
             </div>
           </div>
 

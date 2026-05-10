@@ -43,6 +43,19 @@ export function QualityPromise() {
               ))}
             </div>
           </div>
+          <div className="mt-8 rounded-[1.5rem] border border-white/10 bg-white/5 p-5 text-sm leading-7 text-white/72">
+            <p>
+              Transparenz gehört dazu: Ein Teil der Produktlinks sind Affiliate-Links.
+              Wenn darüber etwas gekauft wird, kann eine kleine Provision entstehen.
+            </p>
+            <p className="mt-3">
+              Einige Bilder auf dieser Seite sind außerdem KI-generiert oder visuell
+              überarbeitet. Das bedeutet nicht, dass wir die Dinge nicht selbst haben,
+              sondern nur, dass einfache Privatfotos oft nicht schön genug für die
+              Seite sind und wir unsere Wohnung oder unseren Garten nicht öffentlich
+              zeigen möchten.
+            </p>
+          </div>
         </div>
       </div>
     </section>
