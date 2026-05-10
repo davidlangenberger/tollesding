@@ -19,7 +19,7 @@ export type Product = {
   note?: string;
 };
 
-export const AMAZON_ASSOCIATE_TAG = "TODO-DEINE-ID";
+export const AMAZON_ASSOCIATE_TAG: string = "tollesding-21";
 
 export const products: Product[] = [
   {
