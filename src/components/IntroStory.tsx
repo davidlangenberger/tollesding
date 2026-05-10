@@ -4,7 +4,7 @@ export function IntroStory() {
   return (
     <section className="py-20 sm:py-24">
       <div className="section-shell">
-        <div className="grid gap-10 lg:grid-cols-[0.56fr_1.44fr] lg:items-start">
+        <div className="grid gap-10 lg:grid-cols-[0.56fr_1.44fr] lg:items-end">
           <div className="max-w-sm">
             <span className="eyebrow">
               Warum es <em className="font-[var(--font-display)] not-italic">TollesDing</em> gibt
@@ -27,7 +27,7 @@ export function IntroStory() {
               </div>
             </div>
           </div>
-          <div className="space-y-6 text-base leading-8 text-ink/75 sm:text-lg">
+          <div className="space-y-6 self-end text-base leading-8 text-ink/75 sm:text-lg">
             <p>
               Ich bin 44, seit 11 Jahren verheiratet und wir haben drei Kinder im
               Alter von 2, 8 und 10 Jahren. Unser Alltag ist schön, laut, praktisch
