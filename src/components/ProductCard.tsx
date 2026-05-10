@@ -1,5 +1,5 @@
 import type { Product } from "@/data/products";
-import { withAssociateTag } from "@/lib/amazon";
+import { hasAmazonAssociateTag, withAssociateTag } from "@/lib/amazon";
 
 type ProductCardProps = {
   product: Product;
@@ -16,6 +16,7 @@ const categoryStyles: Record<Product["category"], string> = {
 
 export function ProductCard({ product }: ProductCardProps) {
   const link = withAssociateTag(product.amazonUrl);
+  const affiliateEnabled = hasAmazonAssociateTag();
 
   return (
     <article className="group flex h-full flex-col justify-between overflow-hidden rounded-[2rem] border border-white/70 bg-white/80 p-6 shadow-soft backdrop-blur transition duration-300 hover:-translate-y-1 hover:shadow-float">
@@ -79,7 +80,7 @@ export function ProductCard({ product }: ProductCardProps) {
           className="focus-ring inline-flex items-center justify-center rounded-full border border-ink/15 bg-ink px-5 py-3 text-sm font-semibold text-white transition hover:bg-ink/90"
           href={link}
           target="_blank"
-          rel="noreferrer sponsored"
+          rel={affiliateEnabled ? "noreferrer sponsored nofollow external" : "noreferrer nofollow external"}
         >
           Bei Amazon ansehen
         </a>

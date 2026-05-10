@@ -1,4 +1,8 @@
+import { hasAmazonAssociateTag } from "@/lib/amazon";
+
 export function Hero() {
+  const affiliateEnabled = hasAmazonAssociateTag();
+
   return (
     <section
       id="top"
@@ -36,7 +40,9 @@ export function Hero() {
                 Fundstücke entdecken
               </a>
               <p className="max-w-xs text-sm leading-6 text-ink/60">
-                Einige Links sind Affiliate-Links. Für dich bleibt der Preis gleich.
+                {affiliateEnabled
+                  ? "Einige Links sind Affiliate-Links. Für dich bleibt der Preis gleich."
+                  : "Die Produktlinks führen aktuell als normale externe Links zu Amazon."}
               </p>
             </div>
           </div>

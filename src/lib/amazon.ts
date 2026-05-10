@@ -1,7 +1,11 @@
 import { AMAZON_ASSOCIATE_TAG } from "@/data/products";
 
+export function hasAmazonAssociateTag() {
+  return Boolean(AMAZON_ASSOCIATE_TAG && AMAZON_ASSOCIATE_TAG !== "TODO-DEINE-ID");
+}
+
 export function withAssociateTag(url: string) {
-  if (!AMAZON_ASSOCIATE_TAG || AMAZON_ASSOCIATE_TAG === "TODO-DEINE-ID") {
+  if (!hasAmazonAssociateTag()) {
     return url;
   }
 

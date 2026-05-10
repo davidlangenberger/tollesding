@@ -1,9 +1,12 @@
 import { products } from "@/data/products";
+import { hasAmazonAssociateTag } from "@/lib/amazon";
 import { ProductCard } from "./ProductCard";
 
 const categories = ["Alle", "Küche", "Technik", "Sport", "Schule", "Ordnung", "Unklar"];
 
 export function ProductGrid() {
+  const affiliateEnabled = hasAmazonAssociateTag();
+
   return (
     <section id="produkte" className="py-20 sm:py-24">
       <div className="section-shell">
@@ -16,9 +19,9 @@ export function ProductGrid() {
             </h2>
           </div>
           <p className="max-w-md text-sm leading-7 text-ink/60">
-            Transparenz vorab: Die Produktlinks gehen zu Amazon. Einige davon sind
-            Affiliate-Links. Wir verlinken nichts versteckt und nennen die Dinge
-            so konkret, wie wir sie tatsächlich kennen.
+            {affiliateEnabled
+              ? "Transparenz vorab: Die Produktlinks gehen zu Amazon. Einige davon sind Affiliate-Links. Wir verlinken nichts versteckt und nennen die Dinge so konkret, wie wir sie tatsächlich kennen."
+              : "Transparenz vorab: Die Produktlinks gehen zu Amazon. Solange noch keine Amazon-Partner-ID hinterlegt ist, sind es normale externe Produktlinks ohne Provisionszuordnung."}
           </p>
         </div>
 
