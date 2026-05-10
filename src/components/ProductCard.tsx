@@ -38,15 +38,15 @@ export function ProductCard({ product }: ProductCardProps) {
 
           <div className="mt-6 overflow-hidden rounded-[1.5rem] bg-gradient-to-br from-sand via-white to-mist p-5">
             {product.image ? (
-              <div className="relative overflow-hidden rounded-[1.15rem] bg-white">
-                <div className="absolute inset-x-0 bottom-0 z-10 h-24 bg-gradient-to-t from-ink/18 to-transparent" />
+              <div className="relative overflow-hidden rounded-[1.15rem] border border-black/5 bg-white/95 shadow-sm">
+                <div className="absolute inset-0 bg-[radial-gradient(circle_at_top,_rgba(214,163,79,0.12),_transparent_42%),linear-gradient(180deg,_rgba(255,255,255,0.98),_rgba(246,241,232,0.9))]" />
                 <Image
                   src={product.image}
                   alt={product.title}
                   width={1800}
                   height={1350}
                   sizes="(max-width: 1024px) 100vw, 260px"
-                  className="h-64 w-full object-cover transition duration-500 group-hover:scale-[1.02]"
+                  className="relative z-10 h-auto max-h-[26rem] w-full object-contain p-3 transition duration-500 group-hover:scale-[1.01]"
                 />
               </div>
             ) : (
