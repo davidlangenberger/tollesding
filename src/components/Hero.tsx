@@ -22,13 +22,10 @@ export function Hero() {
         aria-hidden
       />
       <div className="section-shell relative">
-        <div className="grid gap-14 lg:grid-cols-[minmax(0,1.05fr)_minmax(320px,0.95fr)] lg:items-center">
+        <div className="grid gap-12 lg:grid-cols-[minmax(0,1.1fr)_minmax(320px,0.9fr)] lg:items-center">
           <div className="max-w-3xl">
-            <div className="rounded-[2rem] border border-white/60 bg-white/72 p-5 shadow-soft backdrop-blur sm:p-7">
-              <BrandLogo />
-            </div>
             <span className="eyebrow">Persönlich kuratiert statt beliebig gelistet</span>
-            <h1 className="mt-6 max-w-3xl font-[var(--font-display)] text-5xl leading-[0.95] text-ink sm:text-6xl lg:text-7xl">
+            <h1 className="mt-5 max-w-3xl font-[var(--font-display)] text-5xl leading-[0.95] text-ink sm:text-6xl lg:text-7xl">
               Dinge, die im Alltag
               <span className="block text-sun">wirklich was taugen.</span>
             </h1>
@@ -54,28 +51,19 @@ export function Hero() {
 
           <div className="relative">
             <div className="relative overflow-hidden rounded-[2rem] border border-white/70 bg-white/78 p-6 shadow-soft backdrop-blur sm:p-8">
-              <div className="space-y-5">
-                <div className="rounded-[1.5rem] bg-sand p-6">
-                  <p className="text-xs font-semibold uppercase tracking-[0.24em] text-ink/45">
-                    Was <em className="font-[var(--font-display)] not-italic normal-case tracking-normal text-ink">TollesDing</em> ausmacht
+              <div className="rounded-[1.5rem] bg-sand p-6">
+                <p className="text-xs font-semibold uppercase tracking-[0.24em] text-ink/45">
+                  Was <em className="font-[var(--font-display)] not-italic normal-case tracking-normal text-ink">TollesDing</em> ausmacht
+                </p>
+                <div className="mt-5 space-y-4">
+                  <p className="font-[var(--font-display)] text-3xl leading-tight text-ink">
+                    Ehrlich ausgewählt. Im Alltag bewährt.
                   </p>
-                  <div className="mt-5 space-y-3 text-sm leading-7 text-ink/70">
+                  <div className="space-y-3 text-sm leading-7 text-ink/70">
                     <p>Selbst benutzt oder aus unmittelbarer Erfahrung empfohlen.</p>
                     <p>Sinnvoller Nutzen vor Spielerei, Trend oder Marketinglärm.</p>
-                    <p>Aus einem echten Familienalltag mit drei Kindern heraus kuratiert.</p>
+                    <p>Weniger Empfehlungen, dafür solche, die wirklich bleiben.</p>
                   </div>
-                </div>
-                <div className="rounded-[1.5rem] bg-ink p-6 text-white">
-                  <p className="text-xs font-semibold uppercase tracking-[0.24em] text-white/55">
-                    Haltung
-                  </p>
-                  <p className="mt-4 font-[var(--font-display)] text-3xl leading-tight text-white">
-                    Kein Schnickschnack. Nur Dinge, die helfen.
-                  </p>
-                  <p className="mt-3 text-sm leading-7 text-white/75">
-                    Lieber weniger Empfehlungen, dafür solche, die man auch Freunden mit
-                    gutem Gefühl weitergeben würde.
-                  </p>
                 </div>
               </div>
             </div>

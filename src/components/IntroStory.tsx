@@ -4,8 +4,8 @@ export function IntroStory() {
   return (
     <section className="py-20 sm:py-24">
       <div className="section-shell">
-        <div className="grid gap-10 lg:grid-cols-[0.78fr_1.22fr] lg:items-start">
-          <div className="max-w-md">
+        <div className="grid gap-10 lg:grid-cols-[0.56fr_1.44fr] lg:items-start">
+          <div className="max-w-sm">
             <span className="eyebrow">
               Warum es <em className="font-[var(--font-display)] not-italic">TollesDing</em> gibt
             </span>
@@ -13,24 +13,17 @@ export function IntroStory() {
               Kein Testportal.
               <span className="block text-ink/55">Eher ein ehrliches Familienarchiv.</span>
             </h2>
-            <div className="mt-8 overflow-hidden rounded-[2rem] border border-white/70 bg-white/70 p-3 shadow-soft backdrop-blur">
+            <div className="mt-8 max-w-[18rem] overflow-hidden rounded-[2rem] border border-white/70 bg-white/70 p-3 shadow-soft backdrop-blur sm:max-w-[20rem]">
               <div className="relative overflow-hidden rounded-[1.5rem] bg-sand">
                 <Image
                   src="/ich.png"
                   alt="David Langenberger, Gründer von TollesDing"
                   width={1086}
                   height={1448}
-                  sizes="(max-width: 1024px) 100vw, 420px"
+                  sizes="(max-width: 1024px) 70vw, 320px"
                   quality={72}
                   className="h-auto w-full object-contain"
                 />
-              </div>
-              <div className="mt-4 px-1">
-                <p className="font-semibold text-ink">David Langenberger</p>
-                <p className="mt-1 text-sm leading-6 text-ink/62">
-                  44 Jahre, seit 11 Jahren verheiratet, Vater von drei Kindern und
-                  jemand, der gute Alltagslösungen lieber empfiehlt als groß darüber redet.
-                </p>
               </div>
             </div>
           </div>
