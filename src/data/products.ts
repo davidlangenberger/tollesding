@@ -63,14 +63,14 @@ export const products: Product[] = [
     featured: true
   },
   {
-    id: "bleistiftspitzer-dahle",
-    title: "Elektrischer Bleistiftspitzer",
+    id: "sicherheitskabel-burg-waechter",
+    title: "Burg-Wächter Sicherheitskabel",
     shortBenefit:
-      "Mit Schulkindern wird Stiftespitzen schnell von einer Nebensache zu einer ziemlich regelmäßigen Aufgabe. Dieses Modell spart dabei nicht nur Zeit, sondern auch Nerven: es arbeitet schnell, sauber und vor allem mit Netzanschluss statt mit ständig leeren Batterien.",
+      "Ein langes Sicherheitskabel ist kein glamouröses Produkt, aber genau deshalb oft so nützlich. Es hilft überall dort, wo etwas schnell gesichert, verbunden oder gegen spontanes Mitnehmen geschützt werden soll, ohne dass man gleich zu einer komplizierten oder schweren Lösung greifen muss.",
     storyTeaser:
-      "Wir haben vorher mehrere Spitzer ausprobiert, auch elektrische, aber wirklich überzeugt hat uns keiner. Entweder waren sie zu schwach oder im Alltag einfach umständlich. Dieser hier ist zwar nicht billig, aber es war der erste, bei dem wir das Gefühl hatten: genau so sollte das funktionieren. Besonders mit zwei Schulkindern merkt man schnell, wie angenehm es ist, wenn viele Stifte in kurzer Zeit sauber gespitzt sind.",
-    category: "Schule",
-    tags: ["Schule", "Kinder", "Alltag", "Netzbetrieb"],
+      "Für diesen Eintrag fehlt uns noch eure persönliche Geschichte, aber das Produkt selbst ist jetzt korrekt zugeordnet: Es handelt sich um das Burg-Wächter Sicherheitskabel in Schwarz mit 500 cm Länge. Sobald deine Alltagserfahrung dazu vorliegt, ersetzen wir diesen Platzhalter durch eine echte, persönliche Empfehlung mit ehrlicher Einordnung.",
+    category: "Ordnung",
+    tags: ["Sicherheit", "Zuhause", "praktisch", "TODO Geschichte"],
     amazonUrl: "https://www.amazon.de/dp/B00G4A5A4G",
     image: null,
     featured: false
@@ -115,17 +115,17 @@ export const products: Product[] = [
     featured: false
   },
   {
-    id: "produkt-8-pruefen",
-    title: "TODO: Produkt 8 prüfen",
+    id: "bleistiftspitzer-dahle",
+    title: "Elektrischer Bleistiftspitzer",
     shortBenefit:
-      "Dieser Eintrag bleibt bewusst offen, bis der richtige Artikel sauber verifiziert ist. Für eine Empfehlungsseite wie diese ist es wichtiger, einen Link ehrlich zurückzuhalten als vorschnell ein mögliches Duplikat oder ein falsch zugeordnetes Produkt zu veröffentlichen.",
+      "Mit Schulkindern wird Stiftespitzen schnell von einer Nebensache zu einer ziemlich regelmäßigen Aufgabe. Dieses Modell spart dabei nicht nur Zeit, sondern auch Nerven: es arbeitet schnell, sauber und vor allem mit Netzanschluss statt mit ständig leeren Batterien.",
     storyTeaser:
-      "Nach aktuellem Stand deutet vieles darauf hin, dass dieser Link noch einmal zu einer sehr ähnlichen oder identischen Spitzmaschine führt. Deshalb bleibt dieser Platz vorerst transparent markiert. Sobald der richtige Artikel bestätigt ist, kann hier die eigentliche Empfehlung mit echter Geschichte ergänzt werden.",
-    category: "Unklar",
-    tags: ["TODO", "prüfen", "Transparenz"],
+      "Wir haben vorher mehrere Spitzer ausprobiert, auch elektrische, aber wirklich überzeugt hat uns keiner. Entweder waren sie zu schwach oder im Alltag einfach umständlich. Dieser hier ist zwar nicht billig, aber es war der erste, bei dem wir das Gefühl hatten: genau so sollte das funktionieren. Besonders mit zwei Schulkindern merkt man schnell, wie angenehm es ist, wenn viele Stifte in kurzer Zeit sauber gespitzt sind.",
+    category: "Schule",
+    tags: ["Schule", "Kinder", "Alltag", "Netzbetrieb"],
     amazonUrl: "https://www.amazon.de/dp/B07M65BJCC",
     image: null,
     featured: false,
-    note: "Der Link scheint auf eine Dahle-Spitzmaschine zu verweisen und könnte ein Duplikat von Produkt 4 sein."
+    note: "Die genaue Modellbezeichnung kann bei Gelegenheit noch ergänzt werden. Inhaltlich ist der Eintrag jetzt dem elektrischen Spitzer zugeordnet."
   }
 ];
