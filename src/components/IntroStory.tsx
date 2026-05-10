@@ -6,7 +6,9 @@ export function IntroStory() {
       <div className="section-shell">
         <div className="grid gap-10 lg:grid-cols-[0.78fr_1.22fr] lg:items-start">
           <div className="max-w-md">
-            <span className="eyebrow">Warum es Tolles Ding gibt</span>
+            <span className="eyebrow">
+              Warum es <em className="font-[var(--font-display)] not-italic">TollesDing</em> gibt
+            </span>
             <h2 className="mt-5 font-[var(--font-display)] text-4xl leading-tight text-ink sm:text-5xl">
               Kein Testportal.
               <span className="block text-ink/55">Eher ein ehrliches Familienarchiv.</span>
@@ -15,7 +17,7 @@ export function IntroStory() {
               <div className="relative overflow-hidden rounded-[1.5rem] bg-sand">
                 <Image
                   src="/ich.png"
-                  alt="David Langenberger, Gründer von Tolles Ding"
+                  alt="David Langenberger, Gründer von TollesDing"
                   width={1086}
                   height={1448}
                   sizes="(max-width: 1024px) 100vw, 420px"
@@ -46,7 +48,7 @@ export function IntroStory() {
               geworden sind.
             </p>
             <p>
-              Aus dieser Erfahrung ist Tolles Ding entstanden. Hier stehen keine
+              Aus dieser Erfahrung ist <em className="font-[var(--font-display)] not-italic">TollesDing</em> entstanden. Hier stehen keine
               Fake-Tests, keine erfundenen Bewertungen und keine endlosen
               Produktlisten. Nur Empfehlungen aus dem echten Alltag, mit ehrlichen
               Grenzen dort, wo sie dazugehören.

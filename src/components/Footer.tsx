@@ -1,5 +1,6 @@
 import { hasAmazonAssociateTag } from "@/lib/amazon";
 import { AffiliateDisclosure } from "./AffiliateDisclosure";
+import { BrandLogo } from "./BrandLogo";
 import { PrivacyPolicy } from "./PrivacyPolicy";
 
 export function Footer() {
@@ -10,9 +11,9 @@ export function Footer() {
       <div className="section-shell">
         <div className="grid gap-8 lg:grid-cols-[1fr_1fr_0.9fr]">
           <div>
-            <p className="font-[var(--font-display)] text-3xl text-ink">Tolles Ding</p>
+            <BrandLogo compact />
             <p className="mt-3 max-w-sm text-sm leading-7 text-ink/65">
-              Eine persönliche Sammlung von Dingen, die in einem vollen
+              <em className="font-[var(--font-display)] not-italic text-ink">TollesDing</em> ist eine persönliche Sammlung von Dingen, die in einem vollen
               Familienalltag wirklich helfen.
             </p>
             <div className="mt-5 flex flex-wrap gap-3 text-sm">

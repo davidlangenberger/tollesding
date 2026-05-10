@@ -14,7 +14,7 @@ const manrope = Manrope({
 
 export const metadata: Metadata = {
   metadataBase: new URL("https://tollesding.de"),
-  title: "Tolles Ding – Dinge, die im Alltag wirklich was taugen",
+  title: "TollesDing – Dinge, die im Alltag wirklich was taugen",
   description:
     "Praktische, bewährte und sinnvolle Fundstücke für Zuhause und den Familienalltag. Persönlich empfohlen, weil sie unser Leben einfacher machen.",
   keywords: [
@@ -28,17 +28,17 @@ export const metadata: Metadata = {
     "Amazon Empfehlungen"
   ],
   openGraph: {
-    title: "Tolles Ding – Dinge, die im Alltag wirklich was taugen",
+    title: "TollesDing – Dinge, die im Alltag wirklich was taugen",
     description:
       "Persönlich empfohlene Fundstücke für Familien, die praktische Lösungen lieben.",
     url: "https://tollesding.de",
-    siteName: "Tolles Ding",
+    siteName: "TollesDing",
     locale: "de_DE",
     type: "website"
   },
   twitter: {
     card: "summary_large_image",
-    title: "Tolles Ding – Dinge, die im Alltag wirklich was taugen",
+    title: "TollesDing – Dinge, die im Alltag wirklich was taugen",
     description:
       "Praktische, bewährte und sinnvolle Fundstücke für Zuhause und den Familienalltag."
   },
