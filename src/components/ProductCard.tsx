@@ -45,7 +45,8 @@ export function ProductCard({ product }: ProductCardProps) {
                   alt={product.title}
                   width={1800}
                   height={1350}
-                  sizes="(max-width: 1024px) 100vw, 260px"
+                  sizes="(max-width: 768px) 88vw, 260px"
+                  quality={68}
                   className="relative z-10 h-auto max-h-[26rem] w-full object-contain p-3 transition duration-500 group-hover:scale-[1.01]"
                 />
               </div>

@@ -33,7 +33,7 @@ export const products: Product[] = [
     tags: ["Sommer", "Kinder", "Küche", "familientauglich"],
     amazonUrl:
       "https://www.amazon.de/TOPAHGOD-Eisw%C3%BCrfelform-Eisw%C3%BCrfelbeh%C3%A4lter-Einfaches-Eisw%C3%BCrfelbox/dp/B0DGL1HH57",
-    image: null,
+    image: "/products/eiswuerfelbox.jpg",
     featured: true
   },
   {
@@ -46,7 +46,7 @@ export const products: Product[] = [
     category: "Technik",
     tags: ["Technik", "Ordnung", "Schlafzimmer", "Apple"],
     amazonUrl: "https://www.amazon.de/dp/B0CCVBQTB8",
-    image: "/products/wireless-ladestation.jpg",
+    image: "/products/wireless-ladestation.png",
     featured: true
   },
   {
@@ -72,7 +72,7 @@ export const products: Product[] = [
     category: "Ordnung",
     tags: ["Sicherheit", "Fahrrad", "Kinder", "unterwegs"],
     amazonUrl: "https://www.amazon.de/dp/B00G4A5A4G",
-    image: null,
+    image: "/products/sicherheitskabel.png",
     featured: false
   },
   {
@@ -85,7 +85,7 @@ export const products: Product[] = [
     category: "Sport",
     tags: ["Sport", "Kinder", "Winter", "Zuhause"],
     amazonUrl: "https://www.amazon.de/dp/B0BR5MHBMK",
-    image: null,
+    image: "/products/airtrack-matte.png",
     featured: false
   },
   {
@@ -98,7 +98,7 @@ export const products: Product[] = [
     category: "Küche",
     tags: ["Küche", "Parmesan", "Familie", "bewährt"],
     amazonUrl: "https://www.amazon.de/dp/B00151WA06",
-    image: "/products/microplane-reibe.jpg",
+    image: "/products/microplane-reibe.png",
     featured: false
   },
   {
@@ -111,7 +111,7 @@ export const products: Product[] = [
     category: "Ordnung",
     tags: ["Ordnung", "Küche", "Kinder", "Schule"],
     amazonUrl: "https://www.amazon.de/dp/B09B1CL7HY",
-    image: "/products/flaschen-trockner.jpg",
+    image: "/products/flaschen-trockner.png",
     featured: false
   },
   {
@@ -124,7 +124,7 @@ export const products: Product[] = [
     category: "Schule",
     tags: ["Schule", "Kinder", "Alltag", "Netzbetrieb"],
     amazonUrl: "https://www.amazon.de/dp/B07M65BJCC",
-    image: "/products/bleistiftspitzer.jpg",
+    image: "/products/bleistiftspitzer.png",
     featured: false,
     note: "Die genaue Modellbezeichnung kann bei Gelegenheit noch ergänzt werden. Inhaltlich ist der Eintrag jetzt dem elektrischen Spitzer zugeordnet."
   }
