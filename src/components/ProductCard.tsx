@@ -1,3 +1,4 @@
+import Image from "next/image";
 import type { Product } from "@/data/products";
 import { hasAmazonAssociateTag, withAssociateTag } from "@/lib/amazon";
 
@@ -36,22 +37,36 @@ export function ProductCard({ product }: ProductCardProps) {
           </div>
 
           <div className="mt-6 overflow-hidden rounded-[1.5rem] bg-gradient-to-br from-sand via-white to-mist p-5">
-            <div className="flex min-h-40 items-end justify-between gap-4">
-              <div>
-                <p className="text-xs font-semibold uppercase tracking-[0.24em] text-ink/40">
-                  Platz für eigenes Foto
-                </p>
-                <p className="mt-2 max-w-[14rem] text-sm leading-6 text-ink/60">
-                  Aktuell bewusst ohne Amazon-Bild. Eigene Fotos lassen sich hier
-                  später sauber ergänzen.
-                </p>
+            {product.image ? (
+              <div className="relative overflow-hidden rounded-[1.15rem] bg-white">
+                <div className="absolute inset-x-0 bottom-0 z-10 h-24 bg-gradient-to-t from-ink/18 to-transparent" />
+                <Image
+                  src={product.image}
+                  alt={product.title}
+                  width={1800}
+                  height={1350}
+                  sizes="(max-width: 1024px) 100vw, 260px"
+                  className="h-64 w-full object-cover transition duration-500 group-hover:scale-[1.02]"
+                />
               </div>
-              <div className="flex gap-2 self-start pt-3" aria-hidden>
-                <span className="h-2 w-2 rounded-full bg-sun/80" />
-                <span className="h-2 w-2 rounded-full bg-sage/80" />
-                <span className="h-2 w-2 rounded-full bg-clay/80" />
+            ) : (
+              <div className="flex min-h-40 items-end justify-between gap-4">
+                <div>
+                  <p className="text-xs font-semibold uppercase tracking-[0.24em] text-ink/40">
+                    Platz für eigenes Foto
+                  </p>
+                  <p className="mt-2 max-w-[14rem] text-sm leading-6 text-ink/60">
+                    Aktuell ohne eigenes Foto. Sobald eines vorliegt, erscheint es hier
+                    im gleichen Layout.
+                  </p>
+                </div>
+                <div className="flex gap-2 self-start pt-3" aria-hidden>
+                  <span className="h-2 w-2 rounded-full bg-sun/80" />
+                  <span className="h-2 w-2 rounded-full bg-sage/80" />
+                  <span className="h-2 w-2 rounded-full bg-clay/80" />
+                </div>
               </div>
-            </div>
+            )}
           </div>
         </div>
 

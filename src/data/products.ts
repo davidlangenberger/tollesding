@@ -46,7 +46,7 @@ export const products: Product[] = [
     category: "Technik",
     tags: ["Technik", "Ordnung", "Schlafzimmer", "Apple"],
     amazonUrl: "https://www.amazon.de/dp/B0CCVBQTB8",
-    image: null,
+    image: "/products/wireless-ladestation.jpg",
     featured: true
   },
   {
@@ -59,7 +59,7 @@ export const products: Product[] = [
     category: "Sport",
     tags: ["Sport", "Kinder", "Winter", "Fußball"],
     amazonUrl: "https://www.amazon.de/dp/B0FPQM6F2D",
-    image: null,
+    image: "/products/schuhtrockner.jpg",
     featured: true
   },
   {
@@ -98,7 +98,7 @@ export const products: Product[] = [
     category: "Küche",
     tags: ["Küche", "Parmesan", "Familie", "bewährt"],
     amazonUrl: "https://www.amazon.de/dp/B00151WA06",
-    image: null,
+    image: "/products/microplane-reibe.jpg",
     featured: false
   },
   {
@@ -111,7 +111,7 @@ export const products: Product[] = [
     category: "Ordnung",
     tags: ["Ordnung", "Küche", "Kinder", "Schule"],
     amazonUrl: "https://www.amazon.de/dp/B09B1CL7HY",
-    image: null,
+    image: "/products/flaschen-trockner.jpg",
     featured: false
   },
   {
@@ -124,7 +124,7 @@ export const products: Product[] = [
     category: "Schule",
     tags: ["Schule", "Kinder", "Alltag", "Netzbetrieb"],
     amazonUrl: "https://www.amazon.de/dp/B07M65BJCC",
-    image: null,
+    image: "/products/bleistiftspitzer.jpg",
     featured: false,
     note: "Die genaue Modellbezeichnung kann bei Gelegenheit noch ergänzt werden. Inhaltlich ist der Eintrag jetzt dem elektrischen Spitzer zugeordnet."
   }
