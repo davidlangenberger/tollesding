@@ -4,22 +4,9 @@ export function PrivacyPolicy() {
   const affiliateEnabled = hasAmazonAssociateTag();
 
   return (
-    <section
-      id="datenschutz"
-      aria-labelledby="privacy-heading"
-      className="mt-8 rounded-[2rem] border border-ink/10 bg-white/70 p-6 text-sm leading-7 text-ink/70 shadow-soft backdrop-blur sm:p-8"
-    >
-      <div className="max-w-4xl">
-        <p className="eyebrow">Datenschutz</p>
-        <h2
-          id="privacy-heading"
-          className="mt-5 font-[var(--font-display)] text-4xl leading-tight text-ink sm:text-5xl"
-        >
-          Datenschutzerklärung
-        </h2>
-        <p className="mt-4 text-sm text-ink/55">Stand: 10. Mai 2026</p>
-
-        <div className="mt-8 space-y-8">
+    <div className="space-y-8 text-sm leading-7 text-ink/70">
+      <p className="text-sm text-ink/55">Stand: 10. Mai 2026</p>
+      <div className="space-y-8">
           <section>
             <h3 className="text-base font-semibold text-ink">1. Verantwortlicher</h3>
             <div className="mt-3 space-y-1">
@@ -311,8 +298,7 @@ export function PrivacyPolicy() {
               </p>
             </div>
           </section>
-        </div>
       </div>
-    </section>
+    </div>
   );
 }

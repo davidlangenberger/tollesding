@@ -1,4 +1,3 @@
-import { AffiliateDisclosure } from "@/components/AffiliateDisclosure";
 import { Footer } from "@/components/Footer";
 import { Header } from "@/components/Header";
 import { Hero } from "@/components/Hero";
@@ -14,7 +13,6 @@ export default function Home() {
       <IntroStory />
       <ProductGrid />
       <QualityPromise />
-      <AffiliateDisclosure />
       <Footer />
     </main>
   );

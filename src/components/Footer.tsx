@@ -1,4 +1,5 @@
 import { hasAmazonAssociateTag } from "@/lib/amazon";
+import { AffiliateDisclosure } from "./AffiliateDisclosure";
 import { PrivacyPolicy } from "./PrivacyPolicy";
 
 export function Footer() {
@@ -15,29 +16,32 @@ export function Footer() {
               Familienalltag wirklich helfen.
             </p>
             <div className="mt-5 flex flex-wrap gap-3 text-sm">
-              <a
-                className="focus-ring rounded-full border border-ink/10 px-4 py-2 text-ink/70 hover:bg-white/70"
-                href="#impressum"
-              >
+              <a className="focus-ring rounded-full border border-ink/10 px-4 py-2 text-ink/70 hover:bg-white/70" href="#impressum">
                 Impressum
               </a>
-              <a
-                className="focus-ring rounded-full border border-ink/10 px-4 py-2 text-ink/70 hover:bg-white/70"
-                href="#datenschutz"
-              >
+              <a className="focus-ring rounded-full border border-ink/10 px-4 py-2 text-ink/70 hover:bg-white/70" href="#datenschutz">
                 Datenschutz
+              </a>
+              <a className="focus-ring rounded-full border border-ink/10 px-4 py-2 text-ink/70 hover:bg-white/70" href="#affiliate-info">
+                Affiliate
               </a>
             </div>
           </div>
 
-          <div>
+          <div className="lg:col-span-2">
             <h2 className="text-sm font-semibold uppercase tracking-[0.22em] text-ink/45">
               Rechtliches
             </h2>
-            <div className="mt-4 space-y-4 text-sm leading-7 text-ink/65">
-              <div id="impressum" className="rounded-2xl border border-ink/10 bg-white/60 p-4">
-                <p className="font-semibold text-ink">Impressum</p>
-                <div className="mt-2 space-y-1">
+            <div className="mt-4 space-y-4">
+              <details
+                id="impressum"
+                className="group rounded-2xl border border-ink/10 bg-white/60 p-4 text-sm leading-7 text-ink/65"
+              >
+                <summary className="focus-ring flex cursor-pointer list-none items-center justify-between rounded-xl px-1 py-1 font-semibold text-ink marker:hidden">
+                  Impressum
+                  <span className="text-ink/40 transition group-open:rotate-45">+</span>
+                </summary>
+                <div className="mt-4 space-y-1 border-t border-ink/8 pt-4">
                   <p>David Langenberger</p>
                   <p>Siegfried-Aufhäuser-Str. 17</p>
                   <p>86157 Augsburg</p>
@@ -50,31 +54,42 @@ export function Footer() {
                     </a>
                   </p>
                 </div>
-              </div>
-            </div>
-          </div>
+              </details>
 
-          <div>
-            <h2 className="text-sm font-semibold uppercase tracking-[0.22em] text-ink/45">
-              Affiliate-Hinweis
-            </h2>
-            <div className="mt-4 rounded-2xl border border-ink/10 bg-white/60 p-4 text-sm leading-7 text-ink/65">
-              {affiliateEnabled ? (
-                <p>
-                  Einige Links auf dieser Seite sind Affiliate-Links. Als
-                  Amazon-Partner verdiene ich an qualifizierten Verkäufen.
-                </p>
-              ) : (
-                <p>
-                  Die Website ist auf Amazon-Partnerlinks vorbereitet. Solange noch
-                  keine Partner-ID hinterlegt ist, entstehen über die derzeitigen
-                  Amazon-Links keine Partnerprovisionen.
-                </p>
-              )}
+              <details
+                id="datenschutz"
+                className="group rounded-2xl border border-ink/10 bg-white/60 p-4 text-sm leading-7 text-ink/65"
+              >
+                <summary className="focus-ring flex cursor-pointer list-none items-center justify-between rounded-xl px-1 py-1 font-semibold text-ink marker:hidden">
+                  Datenschutzerklärung
+                  <span className="text-ink/40 transition group-open:rotate-45">+</span>
+                </summary>
+                <div className="mt-4 border-t border-ink/8 pt-4">
+                  <PrivacyPolicy />
+                </div>
+              </details>
+
+              <details
+                id="affiliate-info"
+                className="group rounded-2xl border border-ink/10 bg-white/60 p-4 text-sm leading-7 text-ink/65"
+              >
+                <summary className="focus-ring flex cursor-pointer list-none items-center justify-between rounded-xl px-1 py-1 font-semibold text-ink marker:hidden">
+                  Affiliate-Hinweis
+                  <span className="text-ink/40 transition group-open:rotate-45">+</span>
+                </summary>
+                <div className="mt-4 border-t border-ink/8 pt-4">
+                  <AffiliateDisclosure />
+                  {affiliateEnabled ? null : (
+                    <p className="mt-4 text-xs leading-6 text-ink/50">
+                      Der verpflichtende Amazon-Partnerhinweis wird automatisch sichtbar
+                      verschärft, sobald eine echte Partner-ID hinterlegt ist.
+                    </p>
+                  )}
+                </div>
+              </details>
             </div>
           </div>
         </div>
-        <PrivacyPolicy />
       </div>
     </footer>
   );
