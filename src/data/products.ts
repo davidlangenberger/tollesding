@@ -66,11 +66,11 @@ export const products: Product[] = [
     id: "sicherheitskabel-burg-waechter",
     title: "Burg-Wächter Sicherheitskabel",
     shortBenefit:
-      "Ein langes Sicherheitskabel ist kein glamouröses Produkt, aber genau deshalb oft so nützlich. Es hilft überall dort, wo etwas schnell gesichert, verbunden oder gegen spontanes Mitnehmen geschützt werden soll, ohne dass man gleich zu einer komplizierten oder schweren Lösung greifen muss.",
+      "Gerade bei größeren und teureren Dingen wie einem Fahrradanhänger ist ein langes Sicherheitskabel oft deutlich praktischer als ein klassisches kurzes Schloss. Es schafft mehr Spielraum beim Anschließen, spart unterwegs Zeit und macht genau die Situationen einfacher, die sonst schnell umständlich werden.",
     storyTeaser:
-      "Für diesen Eintrag fehlt uns noch eure persönliche Geschichte, aber das Produkt selbst ist jetzt korrekt zugeordnet: Es handelt sich um das Burg-Wächter Sicherheitskabel in Schwarz mit 500 cm Länge. Sobald deine Alltagserfahrung dazu vorliegt, ersetzen wir diesen Platzhalter durch eine echte, persönliche Empfehlung mit ehrlicher Einordnung.",
+      "Bei uns ging es ganz konkret um einen teuren Fahrradanhänger und die immer gleiche Frage: Wie macht man ihn sinnvoll fest, wenn man unterwegs kurz anhält oder irgendwo parkt? Seit wir dieses Sicherheitskabel am Anhänger haben, lässt sich der Anhänger einfach direkt mit ans Fahrrad oder an einen Gegenstand in der Nähe anschließen. Besonders praktisch ist das auch mit Kindern: Man kann unterwegs mehrere Kinderräder gleich mit einfädeln und zusammen abschließen, statt jedes einzelne Rad separat zu sichern. Das spart im Alltag wirklich Zeit, Gefummel und unnötige Umstände.",
     category: "Ordnung",
-    tags: ["Sicherheit", "Zuhause", "praktisch", "TODO Geschichte"],
+    tags: ["Sicherheit", "Fahrrad", "Kinder", "unterwegs"],
     amazonUrl: "https://www.amazon.de/dp/B00G4A5A4G",
     image: null,
     featured: false
