@@ -33,7 +33,7 @@ export const products: Product[] = [
     tags: ["Sommer", "Kinder", "Küche", "familientauglich"],
     amazonUrl:
       "https://www.amazon.de/TOPAHGOD-Eisw%C3%BCrfelform-Eisw%C3%BCrfelbeh%C3%A4lter-Einfaches-Eisw%C3%BCrfelbox/dp/B0DGL1HH57",
-    image: "/products/eiswuerfelbox.jpg",
+    image: "/products/eiswuerfelbox.png",
     featured: true
   },
   {

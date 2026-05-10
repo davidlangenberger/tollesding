@@ -4,15 +4,17 @@ export function IntroStory() {
   return (
     <section className="py-20 sm:py-24">
       <div className="section-shell">
+        <div className="mb-10 max-w-4xl">
+          <span className="eyebrow">
+            Warum es <em className="font-[var(--font-display)] not-italic">TollesDing</em> gibt
+          </span>
+          <h2 className="mt-5 font-[var(--font-display)] text-4xl leading-tight text-ink sm:text-5xl lg:text-6xl">
+            Kein Testportal.
+            <span className="block text-ink/55">Eher ein ehrliches Familienarchiv.</span>
+          </h2>
+        </div>
         <div className="grid gap-10 lg:grid-cols-[0.56fr_1.44fr] lg:items-end">
           <div className="max-w-sm">
-            <span className="eyebrow">
-              Warum es <em className="font-[var(--font-display)] not-italic">TollesDing</em> gibt
-            </span>
-            <h2 className="mt-5 font-[var(--font-display)] text-4xl leading-tight text-ink sm:text-5xl">
-              Kein Testportal.
-              <span className="block text-ink/55">Eher ein ehrliches Familienarchiv.</span>
-            </h2>
             <div className="mt-8 max-w-[18rem] overflow-hidden rounded-[2rem] border border-white/70 bg-white/70 p-3 shadow-soft backdrop-blur sm:max-w-[20rem]">
               <div className="relative overflow-hidden rounded-[1.5rem] bg-sand">
                 <Image
