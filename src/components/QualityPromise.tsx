@@ -21,30 +21,23 @@ export function QualityPromise() {
   return (
     <section id="warum" className="py-20 sm:py-24">
       <div className="section-shell">
-        <div className="overflow-hidden rounded-[2rem] bg-ink px-6 py-8 text-white shadow-soft sm:px-8 sm:py-10 lg:px-12">
-          <div className="grid gap-10 lg:grid-cols-[0.85fr_1.15fr] lg:items-start">
-            <div className="max-w-md">
-              <span className="eyebrow border-white/10 bg-white/10 text-white/75">
-                Warum diese Dinge?
-              </span>
-              <h2 className="mt-5 font-[var(--font-display)] text-4xl leading-tight text-white sm:text-5xl">
-                Weil praktisch oft unspektakulär ist. Und genau deshalb so wertvoll.
-              </h2>
-            </div>
-            <div className="grid gap-5 sm:grid-cols-2">
-              {principles.map((item) => (
-                <article
-                  key={item.title}
-                  className="rounded-[1.5rem] border border-white/10 bg-white/5 p-5"
-                >
-                  <h3 className="text-lg font-semibold text-white">{item.title}</h3>
-                  <p className="mt-3 text-sm leading-7 text-white/72">{item.text}</p>
-                </article>
-              ))}
-            </div>
+        <div className="grid gap-10 lg:grid-cols-[0.85fr_1.15fr] lg:items-start">
+          <div className="max-w-md">
+            <span className="eyebrow">Warum diese Dinge?</span>
+            <h2 className="mt-4 font-[var(--font-display)] text-4xl leading-tight text-ink sm:text-5xl">
+              Weil praktisch oft leise wirkt. Und gerade deshalb bleibt.
+            </h2>
+          </div>
+          <div className="grid gap-x-8 gap-y-6 sm:grid-cols-2">
+            {principles.map((item) => (
+              <article key={item.title} className="border-t border-ink/10 pt-4">
+                <h3 className="text-lg font-semibold text-ink">{item.title}</h3>
+                <p className="mt-3 text-sm leading-7 text-ink/68">{item.text}</p>
+              </article>
+            ))}
           </div>
         </div>
-        <div className="mx-auto mt-6 max-w-4xl text-sm leading-7 text-ink/62">
+        <div className="mx-auto mt-8 max-w-4xl border-t border-ink/10 pt-6 text-sm leading-7 text-ink/62">
           <p>
             Transparenz gehört dazu: Ein Teil der Produktlinks sind Affiliate-Links.
             Wenn darüber etwas gekauft wird, kann eine kleine Provision entstehen.

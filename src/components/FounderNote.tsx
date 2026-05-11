@@ -2,24 +2,24 @@ import Image from "next/image";
 
 export function FounderNote() {
   return (
-    <section className="pb-8 pt-4 sm:pb-10">
-      <div className="section-shell">
-        <div className="mx-auto max-w-4xl rounded-[2rem] border border-ink/8 bg-white/55 p-5 shadow-soft backdrop-blur sm:p-6">
+    <section className="pb-10 pt-2 sm:pb-14">
+      <div className="article-shell">
+        <div className="border-t border-ink/10 pt-8">
           <span className="eyebrow">
             Warum es <em className="font-[var(--font-display)] not-italic">TollesDing</em> gibt
           </span>
-          <h2 className="mt-5 font-[var(--font-display)] text-3xl leading-tight text-ink sm:text-4xl">
+          <h2 className="mt-4 font-[var(--font-display)] text-3xl leading-tight text-ink sm:text-[2.5rem]">
             Kein Testportal.
             <span className="block text-ink/55">Eher ein ehrliches Familienarchiv.</span>
           </h2>
-          <div className="mt-6 grid gap-5 sm:grid-cols-[112px_minmax(0,1fr)] sm:items-start">
-            <div className="w-24 overflow-hidden rounded-[1.4rem] border border-white/70 bg-sand sm:w-28">
+          <div className="mt-6 grid gap-5 sm:grid-cols-[88px_minmax(0,1fr)] sm:items-start">
+            <div className="w-20 overflow-hidden rounded-[1.2rem] bg-sand sm:w-[88px]">
               <Image
                 src="/ich.png"
                 alt="David Langenberger"
                 width={1086}
                 height={1448}
-                sizes="112px"
+                sizes="88px"
                 quality={64}
                 className="h-auto w-full object-contain"
               />

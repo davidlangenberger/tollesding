@@ -37,45 +37,6 @@ export const products: Product[] = [
     featured: true
   },
   {
-    id: "wireless-ladestation",
-    title: "3-in-1 Ladestation",
-    shortBenefit:
-      "Wer keine Lust auf herumliegende Kabel, lose Ladepads und ein ständig verschwundenes Apple-Watch-Kabel hat, bekommt hier eine angenehm aufgeräumte Lösung. iPhone, Apple Watch und AirPods landen abends an einem festen Platz, laden gleichzeitig und sorgen nebenbei für deutlich mehr Ruhe auf dem Nachttisch oder Schreibtisch.",
-    storyTeaser:
-      "Genau das war bei uns der Hauptgrund für den Kauf: dieses ständige Ein- und Ausstecken an mehreren Geräten hat genervt, und das lange Watch-Kabel lag immer irgendwie im Weg. Mit der Station reicht abends ein Griff, morgens ist alles geladen und der Platz sieht auch noch deutlich ordentlicher aus. Kein spektakuläres Produkt, aber eines, das jeden Tag leise seine Arbeit macht.",
-    category: "Technik",
-    tags: ["Technik", "Ordnung", "Schlafzimmer", "Apple"],
-    amazonUrl: "https://www.amazon.de/dp/B0CCVBQTB8",
-    image: "/products/wireless-ladestation.png",
-    featured: true
-  },
-  {
-    id: "schuhtrockner",
-    title: "Schuhtrockner mit Gebläse",
-    shortBenefit:
-      "Gerade für Familien mit sportlichen Kindern ist ein guter Schuhtrockner fast schon ein kleines Rettungsgerät. Nasse Fußballschuhe, feuchte Hallenschuhe oder durchweichte Winterstiefel trocknen deutlich schneller als auf der Heizung, und genau das macht an regnerischen Trainingswochen einen echten Unterschied.",
-    storyTeaser:
-      "Unser Sohn spielt fast täglich Fußball, und im Herbst oder Winter war die Frage nach trockenen Schuhen am nächsten Morgen regelmäßig ein Thema. Der entscheidende Tipp kam aus dem Fußballumfeld: nicht irgendein heizender Schuhtrockner, sondern ein Modell mit Gebläse. Seitdem sind selbst richtig nasse Schuhe oft in ein bis zwei Stunden wieder einsatzbereit. Das ist bei uns eines der Produkte mit dem klarsten Aha-Effekt überhaupt.",
-    category: "Sport",
-    tags: ["Sport", "Kinder", "Winter", "Fußball"],
-    amazonUrl: "https://www.amazon.de/dp/B0FPQM6F2D",
-    image: "/products/schuhtrockner.jpg",
-    featured: true
-  },
-  {
-    id: "sicherheitskabel-burg-waechter",
-    title: "Burg-Wächter Sicherheitskabel",
-    shortBenefit:
-      "Gerade bei größeren und teureren Dingen wie einem Fahrradanhänger ist ein langes Sicherheitskabel oft deutlich praktischer als ein klassisches kurzes Schloss. Es schafft mehr Spielraum beim Anschließen, spart unterwegs Zeit und macht genau die Situationen einfacher, die sonst schnell umständlich werden.",
-    storyTeaser:
-      "Bei uns ging es ganz konkret um einen teuren Fahrradanhänger und die immer gleiche Frage: Wie macht man ihn sinnvoll fest, wenn man unterwegs kurz anhält oder irgendwo parkt? Seit wir dieses Sicherheitskabel am Anhänger haben, lässt sich der Anhänger einfach direkt mit ans Fahrrad oder an einen Gegenstand in der Nähe anschließen. Besonders praktisch ist das auch mit Kindern: Man kann unterwegs mehrere Kinderräder gleich mit einfädeln und zusammen abschließen, statt jedes einzelne Rad separat zu sichern. Das spart im Alltag wirklich Zeit, Gefummel und unnötige Umstände.",
-    category: "Ordnung",
-    tags: ["Sicherheit", "Fahrrad", "Kinder", "unterwegs"],
-    amazonUrl: "https://www.amazon.de/dp/B00G4A5A4G",
-    image: "/products/sicherheitskabel.png",
-    featured: false
-  },
-  {
     id: "airtrack-matte",
     title: "AirTrack-Turnmatte",
     shortBenefit:
@@ -113,19 +74,5 @@ export const products: Product[] = [
     amazonUrl: "https://www.amazon.de/dp/B09B1CL7HY",
     image: "/products/flaschen-trockner.png",
     featured: false
-  },
-  {
-    id: "bleistiftspitzer-dahle",
-    title: "Elektrischer Bleistiftspitzer",
-    shortBenefit:
-      "Mit Schulkindern wird Stiftespitzen schnell von einer Nebensache zu einer ziemlich regelmäßigen Aufgabe. Dieses Modell spart dabei nicht nur Zeit, sondern auch Nerven: es arbeitet schnell, sauber und vor allem mit Netzanschluss statt mit ständig leeren Batterien.",
-    storyTeaser:
-      "Wir haben vorher mehrere Spitzer ausprobiert, auch elektrische, aber wirklich überzeugt hat uns keiner. Entweder waren sie zu schwach oder im Alltag einfach umständlich. Dieser hier ist zwar nicht billig, aber es war der erste, bei dem wir das Gefühl hatten: genau so sollte das funktionieren. Besonders mit zwei Schulkindern merkt man schnell, wie angenehm es ist, wenn viele Stifte in kurzer Zeit sauber gespitzt sind.",
-    category: "Schule",
-    tags: ["Schule", "Kinder", "Alltag", "Netzbetrieb"],
-    amazonUrl: "https://www.amazon.de/dp/B07M65BJCC",
-    image: "/products/bleistiftspitzer.png",
-    featured: false,
-    note: "Die genaue Modellbezeichnung kann bei Gelegenheit noch ergänzt werden. Inhaltlich ist der Eintrag jetzt dem elektrischen Spitzer zugeordnet."
   }
 ];

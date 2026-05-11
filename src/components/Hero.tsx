@@ -1,66 +1,58 @@
-import { BrandLogo } from "./BrandLogo";
+import Image from "next/image";
 
 export function Hero() {
   return (
     <section
       id="top"
-      className="relative overflow-hidden border-b border-ink/5 pb-20 pt-28 sm:pb-24 sm:pt-32"
+      className="border-b border-ink/6 pb-16 pt-28 sm:pb-20 sm:pt-32"
     >
-      <div
-        className="absolute inset-0 bg-paper-grid bg-[size:32px_32px] opacity-30"
-        aria-hidden
-      />
-      <div
-        className="absolute left-[8%] top-28 h-40 w-40 rounded-full bg-sun/25 blur-3xl animate-glow"
-        aria-hidden
-      />
-      <div
-        className="absolute right-[4%] top-20 h-56 w-56 rounded-full bg-sage/25 blur-3xl animate-drift"
-        aria-hidden
-      />
-      <div className="section-shell relative">
-        <div className="grid gap-12 lg:grid-cols-[minmax(0,1.1fr)_minmax(320px,0.9fr)] lg:items-center">
-          <div className="max-w-3xl">
-            <span className="eyebrow">Persönlich kuratiert statt beliebig gelistet</span>
-            <h1 className="mt-5 max-w-3xl font-[var(--font-display)] text-5xl leading-[0.95] text-ink sm:text-6xl lg:text-7xl">
-              Dinge, die im Alltag
-              <span className="block text-sun">wirklich was taugen.</span>
-            </h1>
-            <p className="mt-6 max-w-xl text-lg leading-8 text-ink/75 sm:text-xl">
-              <em className="font-[var(--font-display)] not-italic text-ink">TollesDing</em> ist eine persönliche Sammlung für Familien, die wenig Zeit
-              haben, gute Lösungen schätzen und keine Lust auf Ramsch, Fake-Tests oder
-              beliebige Produktlisten mitbringen.
-            </p>
-            <div className="mt-8">
-              <a
-                href="#produkte"
-                className="focus-ring inline-flex items-center justify-center rounded-full bg-ink px-6 py-3 text-sm font-semibold text-white shadow-soft transition hover:-translate-y-0.5 hover:bg-ink/90"
-              >
-                Fundstücke entdecken
-              </a>
-            </div>
+      <div className="section-shell">
+        <div className="mx-auto max-w-4xl text-center">
+          <span className="eyebrow">TollesDing</span>
+          <h1 className="mt-5 font-[var(--font-display)] text-[2.8rem] leading-[0.94] text-ink sm:text-6xl lg:text-[4.6rem]">
+            Dinge, die im Alltag wirklich etwas leichter machen.
+          </h1>
+          <p className="mx-auto mt-6 max-w-2xl text-base leading-8 text-ink/72 sm:text-lg">
+            Eine persönliche Sammlung für Familien, die gute Lösungen lieben, wenig Zeit
+            haben und keine Lust auf Ramsch, Fake-Tests oder beliebige Listen mit
+            hundert halbherzigen Empfehlungen.
+          </p>
+          <div className="mt-7 flex items-center justify-center gap-4 text-[0.78rem] font-medium uppercase tracking-[0.22em] text-ink/46">
+            <span>Augsburg</span>
+            <span className="h-1 w-1 rounded-full bg-ink/25" aria-hidden />
+            <span>Drei Kinder</span>
+            <span className="h-1 w-1 rounded-full bg-ink/25" aria-hidden />
+            <span>Persönlich ausgewählt</span>
           </div>
-
-          <div className="relative">
-            <div className="relative overflow-hidden rounded-[2rem] border border-white/70 bg-white/78 p-6 shadow-soft backdrop-blur sm:p-8">
-              <div className="rounded-[1.5rem] bg-sand p-6">
-                <p className="text-xs font-semibold uppercase tracking-[0.24em] text-ink/45">
-                  Was <em className="font-[var(--font-display)] not-italic normal-case tracking-normal text-ink">TollesDing</em> ausmacht
-                </p>
-                <div className="mt-5 space-y-4">
-                  <p className="font-[var(--font-display)] text-3xl leading-tight text-ink">
-                    Ehrlich ausgewählt. Im Alltag bewährt.
-                  </p>
-                  <div className="space-y-3 text-sm leading-7 text-ink/70">
-                    <p>Selbst benutzt oder aus unmittelbarer Erfahrung empfohlen.</p>
-                    <p>Sinnvoller Nutzen vor Spielerei, Trend oder Marketinglärm.</p>
-                    <p>Weniger Empfehlungen, dafür solche, die wirklich bleiben.</p>
-                  </div>
-                </div>
-              </div>
-            </div>
+          <div className="mt-9">
+            <a
+              href="#produkte"
+              className="focus-ring inline-flex items-center justify-center rounded-full bg-ink px-6 py-3 text-sm font-semibold text-white transition hover:-translate-y-0.5 hover:bg-ink/92"
+            >
+              Fundstücke entdecken
+            </a>
           </div>
         </div>
+
+        <figure className="mx-auto mt-14 max-w-5xl">
+          <div className="overflow-hidden rounded-[1.75rem] bg-[#ece5da] shadow-[0_24px_60px_rgba(58,49,37,0.12)]">
+            <Image
+              src="/products/airtrack-matte.png"
+              alt="Familie mit Turnmatte im Wohnzimmer"
+              width={1200}
+              height={900}
+              priority
+              sizes="(max-width: 768px) 100vw, (max-width: 1280px) 86vw, 1100px"
+              quality={74}
+              className="h-auto w-full object-cover"
+            />
+          </div>
+          <figcaption className="mt-4 max-w-3xl text-sm leading-6 text-ink/54">
+            Vier Dinge stehen im Mittelpunkt dieser ersten Auswahl: eine Sportmatte,
+            eine Eiswürfelbox, ein Flaschentrockner und eine Reibe, die in unserem
+            Alltag nicht dekorativ herumliegen, sondern wirklich benutzt werden.
+          </figcaption>
+        </figure>
       </div>
     </section>
   );
