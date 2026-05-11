@@ -2,16 +2,14 @@ export function IntroStory() {
   return (
     <section className="py-20 sm:py-24">
       <div className="section-shell">
-        <div className="grid gap-8 lg:grid-cols-[220px_minmax(0,1fr)]">
-          <div>
-            <span className="eyebrow">Worum es hier geht</span>
-          </div>
-          <div className="space-y-6 text-[1.06rem] leading-8 text-ink/74">
-            <p className="font-[var(--font-display)] text-3xl leading-tight text-ink sm:text-[2.45rem]">
+        <div className="max-w-5xl">
+          <span className="eyebrow">Worum es hier geht</span>
+          <div className="mt-4 max-w-4xl space-y-6 text-[1.06rem] leading-8 text-ink/74">
+            <h2 className="font-[var(--font-display)] text-3xl leading-tight text-ink sm:text-[2.45rem]">
               <em className="not-italic">TollesDing</em> ist keine Produktliste, die jeden
               Trend mitnimmt. Eher eine ruhige Auswahl der Dinge, die in einem
               lebhaften Familienalltag dauerhaft geblieben sind.
-            </p>
+            </h2>
             <p className="first-letter:float-left first-letter:mr-3 first-letter:pt-1 first-letter:font-[var(--font-display)] first-letter:text-6xl first-letter:leading-[0.82] first-letter:text-ink">
               Viele dieser Empfehlungen sind nicht spektakulär. Genau das ist der
               Punkt. Sie lösen kleine, wiederkehrende Probleme, sparen Zeit, bringen
