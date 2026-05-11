@@ -19,7 +19,7 @@ const principles = [
 
 export function QualityPromise() {
   return (
-    <section id="warum" className="py-20 sm:py-24">
+    <section id="warum" className="pb-16 pt-20 sm:pb-20 sm:pt-24">
       <div className="section-shell">
         <div className="grid gap-10 lg:grid-cols-[0.85fr_1.15fr] lg:items-start">
           <div className="max-w-md">
@@ -36,19 +36,6 @@ export function QualityPromise() {
               </article>
             ))}
           </div>
-        </div>
-        <div className="mx-auto mt-8 max-w-4xl border-t border-ink/10 pt-6 text-sm leading-7 text-ink/62">
-          <p>
-            Transparenz gehört dazu: Ein Teil der Produktlinks sind Affiliate-Links.
-            Wenn darüber etwas gekauft wird, kann eine kleine Provision entstehen.
-          </p>
-          <p className="mt-3">
-            Einige Bilder auf dieser Seite sind außerdem KI-generiert oder visuell
-            überarbeitet. Das bedeutet nicht, dass wir die Dinge nicht selbst haben,
-            sondern nur, dass einfache Privatfotos oft nicht schön genug für die
-            Seite sind und wir unsere Wohnung oder unseren Garten nicht öffentlich
-            zeigen möchten.
-          </p>
         </div>
       </div>
     </section>

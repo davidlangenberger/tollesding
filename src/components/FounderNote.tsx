@@ -2,9 +2,9 @@ import Image from "next/image";
 
 export function FounderNote() {
   return (
-    <section className="pb-10 pt-2 sm:pb-14">
+    <section className="pb-12 pt-8 sm:pb-16 sm:pt-10">
       <div className="section-shell">
-        <div className="border-t border-ink/10 pt-8">
+        <div className="border-t border-ink/10 pt-8 sm:pt-10">
           <span className="eyebrow">
             Warum es <em className="font-[var(--font-display)] not-italic">TollesDing</em> gibt
           </span>
@@ -50,6 +50,19 @@ export function FounderNote() {
                 ist das meistens ein ziemlich gutes Zeichen.
               </p>
             </div>
+          </div>
+          <div className="mt-10 border-t border-ink/10 pt-6 text-sm leading-7 text-ink/62 sm:mt-12">
+            <p>
+              Transparenz gehört dazu: Ein Teil der Produktlinks sind Affiliate-Links.
+              Wenn darüber etwas gekauft wird, kann eine kleine Provision entstehen.
+            </p>
+            <p className="mt-3">
+              Einige Bilder auf dieser Seite sind außerdem KI-generiert oder visuell
+              überarbeitet. Das bedeutet nicht, dass wir die Dinge nicht selbst haben,
+              sondern nur, dass einfache Privatfotos oft nicht schön genug für die
+              Seite sind und wir unsere Wohnung oder unseren Garten nicht öffentlich
+              zeigen möchten.
+            </p>
           </div>
         </div>
       </div>
