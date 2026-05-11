@@ -57,7 +57,7 @@ export function FounderNote() {
               Wenn darüber etwas gekauft wird, kann eine kleine Provision entstehen.
             </p>
             <p className="mt-3">
-              Einige Bilder auf dieser Seite sind außerdem KI-generiert oder visuell
+              Alle Bilder auf dieser Seite sind außerdem KI-generiert oder visuell
               überarbeitet. Das bedeutet nicht, dass wir die Dinge nicht selbst haben,
               sondern nur, dass einfache Privatfotos oft nicht schön genug für die
               Seite sind und wir unsere Wohnung oder unseren Garten nicht öffentlich
