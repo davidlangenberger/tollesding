@@ -7,7 +7,7 @@ export function Hero() {
       className="border-b border-ink/6 pb-16 pt-28 sm:pb-20 sm:pt-32"
     >
       <div className="section-shell">
-        <div className="mx-auto max-w-4xl text-center">
+        <div className="mx-auto max-w-5xl text-center">
           <span className="eyebrow">TollesDing</span>
           <h1 className="mt-5 font-[var(--font-display)] text-[2.8rem] leading-[0.94] text-ink sm:text-6xl lg:text-[4.6rem]">
             Dinge, die im Alltag wirklich etwas leichter machen.
@@ -34,7 +34,7 @@ export function Hero() {
           </div>
         </div>
 
-        <figure className="mx-auto mt-14 max-w-5xl">
+        <figure className="mt-14">
           <div className="overflow-hidden rounded-[1.75rem] bg-[#ece5da] shadow-[0_24px_60px_rgba(58,49,37,0.12)]">
             <Image
               src="/products/airtrack-matte.png"

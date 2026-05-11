@@ -1,7 +1,7 @@
 export function IntroStory() {
   return (
     <section className="py-20 sm:py-24">
-      <div className="article-shell">
+      <div className="section-shell">
         <div className="grid gap-8 lg:grid-cols-[220px_minmax(0,1fr)]">
           <div>
             <span className="eyebrow">Worum es hier geht</span>

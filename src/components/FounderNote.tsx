@@ -3,7 +3,7 @@ import Image from "next/image";
 export function FounderNote() {
   return (
     <section className="pb-10 pt-2 sm:pb-14">
-      <div className="article-shell">
+      <div className="section-shell">
         <div className="border-t border-ink/10 pt-8">
           <span className="eyebrow">
             Warum es <em className="font-[var(--font-display)] not-italic">TollesDing</em> gibt
