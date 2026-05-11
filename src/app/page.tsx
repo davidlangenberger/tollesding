@@ -1,4 +1,5 @@
 import { Footer } from "@/components/Footer";
+import { FounderNote } from "@/components/FounderNote";
 import { Header } from "@/components/Header";
 import { Hero } from "@/components/Hero";
 import { IntroStory } from "@/components/IntroStory";
@@ -13,6 +14,7 @@ export default function Home() {
       <IntroStory />
       <ProductGrid />
       <QualityPromise />
+      <FounderNote />
       <Footer />
     </main>
   );

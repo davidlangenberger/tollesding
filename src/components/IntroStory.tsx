@@ -1,5 +1,3 @@
-import Image from "next/image";
-
 export function IntroStory() {
   return (
     <section className="py-20 sm:py-24">
@@ -13,23 +11,7 @@ export function IntroStory() {
             <span className="block text-ink/55">Eher ein ehrliches Familienarchiv.</span>
           </h2>
         </div>
-        <div className="grid gap-10 lg:grid-cols-[0.56fr_1.44fr] lg:items-center">
-          <div className="max-w-sm">
-            <div className="max-w-[18rem] overflow-hidden rounded-[2rem] border border-white/70 bg-white/70 p-3 shadow-soft backdrop-blur sm:max-w-[20rem]">
-              <div className="relative overflow-hidden rounded-[1.5rem] bg-sand">
-                <Image
-                  src="/ich.png"
-                  alt="David Langenberger, Gründer von TollesDing"
-                  width={1086}
-                  height={1448}
-                  sizes="(max-width: 1024px) 70vw, 320px"
-                  quality={72}
-                  className="h-auto w-full object-contain"
-                />
-              </div>
-            </div>
-          </div>
-          <div className="space-y-6 lg:self-center text-base leading-8 text-ink/75 sm:text-lg">
+        <div className="max-w-4xl space-y-6 text-base leading-8 text-ink/75 sm:text-lg">
             <p>
               Ich bin 44, seit 11 Jahren verheiratet und wir haben drei Kinder im
               Alter von 2, 8 und 10 Jahren. Unser Alltag ist schön, laut, praktisch
@@ -54,7 +36,6 @@ export function IntroStory() {
               benutzt wird, Besuchern auffällt und später sogar weiterempfohlen wird,
               ist das meistens ein ziemlich gutes Zeichen.
             </p>
-          </div>
         </div>
       </div>
     </section>
