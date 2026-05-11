@@ -1,4 +1,4 @@
-import type { Metadata } from "next";
+import type { Metadata, Viewport } from "next";
 import { Fraunces, Manrope } from "next/font/google";
 import "./globals.css";
 
@@ -14,9 +14,9 @@ const manrope = Manrope({
 
 export const metadata: Metadata = {
   metadataBase: new URL("https://tollesding.de"),
-  title: "TollesDing – Dinge, die im Alltag wirklich was taugen",
+  title: "TollesDing: praktische Alltagshelfer für Familien",
   description:
-    "Praktische, bewährte und sinnvolle Fundstücke für Zuhause und den Familienalltag. Persönlich empfohlen, weil sie unser Leben einfacher machen.",
+    "Praktische Alltagshelfer für Familien: ehrlich kuratiert, persönlich bewährt und direkt verlinkt. Entdecke Fundstücke, die wirklich helfen.",
   keywords: [
     "Alltagshelfer",
     "Haushaltshelfer",
@@ -28,9 +28,9 @@ export const metadata: Metadata = {
     "Amazon Empfehlungen"
   ],
   openGraph: {
-    title: "TollesDing – Dinge, die im Alltag wirklich was taugen",
+    title: "TollesDing: praktische Alltagshelfer für Familien",
     description:
-      "Persönlich empfohlene Fundstücke für Familien, die praktische Lösungen lieben.",
+      "Ehrlich kuratierte Alltagshelfer für Familien, die praktische Lösungen lieben.",
     url: "https://tollesding.de",
     siteName: "TollesDing",
     locale: "de_DE",
@@ -38,13 +38,30 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "TollesDing – Dinge, die im Alltag wirklich was taugen",
+    title: "TollesDing: praktische Alltagshelfer für Familien",
     description:
-      "Praktische, bewährte und sinnvolle Fundstücke für Zuhause und den Familienalltag."
+      "Praktische Alltagshelfer für Familien, ehrlich kuratiert und persönlich bewährt."
   },
   alternates: {
     canonical: "https://tollesding.de"
+  },
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      "max-image-preview": "large",
+      "max-snippet": -1,
+      "max-video-preview": -1
+    }
   }
+};
+
+export const viewport: Viewport = {
+  width: "device-width",
+  initialScale: 1,
+  viewportFit: "cover"
 };
 
 export default function RootLayout({

@@ -25,7 +25,7 @@ export function ProductCard({ product, index }: ProductCardProps) {
             {product.image ? (
               <Image
                 src={product.image}
-                alt={product.title}
+                alt={product.imageAlt}
                 width={1200}
                 height={900}
                 sizes="(max-width: 1024px) 100vw, 62vw"
