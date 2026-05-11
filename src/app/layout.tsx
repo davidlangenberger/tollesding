@@ -1,22 +1,28 @@
 import type { Metadata, Viewport } from "next";
 import { Fraunces, Manrope } from "next/font/google";
+import { absoluteUrl, siteConfig } from "@/lib/seo";
 import "./globals.css";
 
 const fraunces = Fraunces({
   subsets: ["latin"],
-  variable: "--font-display"
+  variable: "--font-display",
+  display: "swap"
 });
 
 const manrope = Manrope({
   subsets: ["latin"],
-  variable: "--font-body"
+  variable: "--font-body",
+  display: "swap"
 });
 
-export const metadata: Metadata = {
-  metadataBase: new URL("https://www.tollesding.de"),
-  title: "TollesDing: praktische Alltagshelfer für Familien",
-  description:
-    "Praktische Alltagshelfer für Familien: ehrlich kuratiert, persönlich bewährt und direkt verlinkt. Entdecke Fundstücke, die wirklich helfen.",
+export async function generateMetadata(): Promise<Metadata> {
+  return {
+    metadataBase: new URL(siteConfig.siteUrl),
+    title: {
+      default: siteConfig.title,
+      template: `%s | ${siteConfig.name}`
+    },
+    description: siteConfig.description,
   keywords: [
     "Alltagshelfer",
     "Haushaltshelfer",
@@ -27,36 +33,45 @@ export const metadata: Metadata = {
     "Eltern",
     "Amazon Empfehlungen"
   ],
-  openGraph: {
-    title: "TollesDing: praktische Alltagshelfer für Familien",
-    description:
-      "Ehrlich kuratierte Alltagshelfer für Familien, die praktische Lösungen lieben.",
-    url: "https://www.tollesding.de",
-    siteName: "TollesDing",
-    locale: "de_DE",
-    type: "website"
-  },
-  twitter: {
-    card: "summary_large_image",
-    title: "TollesDing: praktische Alltagshelfer für Familien",
-    description:
-      "Praktische Alltagshelfer für Familien, ehrlich kuratiert und persönlich bewährt."
-  },
-  alternates: {
-    canonical: "https://www.tollesding.de"
-  },
-  robots: {
-    index: true,
-    follow: true,
-    googleBot: {
+    category: "lifestyle",
+    openGraph: {
+      title: siteConfig.title,
+      description: siteConfig.ogDescription,
+      url: siteConfig.siteUrl,
+      siteName: siteConfig.name,
+      locale: "de_DE",
+      type: "website",
+      images: [
+        {
+          url: absoluteUrl("/opengraph-image"),
+          width: 1200,
+          height: 630,
+          alt: "TollesDing – praktische Alltagshelfer für Familien"
+        }
+      ]
+    },
+    twitter: {
+      card: "summary_large_image",
+      title: siteConfig.title,
+      description: siteConfig.description,
+      images: [absoluteUrl("/opengraph-image")]
+    },
+    alternates: {
+      canonical: siteConfig.siteUrl
+    },
+    robots: {
       index: true,
       follow: true,
-      "max-image-preview": "large",
-      "max-snippet": -1,
-      "max-video-preview": -1
+      googleBot: {
+        index: true,
+        follow: true,
+        "max-image-preview": "large",
+        "max-snippet": -1,
+        "max-video-preview": -1
+      }
     }
-  }
-};
+  };
+}
 
 export const viewport: Viewport = {
   width: "device-width",

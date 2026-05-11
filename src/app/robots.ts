@@ -5,11 +5,13 @@ export default function robots(): MetadataRoute.Robots {
     rules: [
       {
         userAgent: "*",
-        allow: "/"
+        allow: ["/", "/_next/static/", "/_next/image/"],
+        disallow: ["/admin", "/api", "/_next/data/"]
       },
       {
         userAgent: "Googlebot",
-        allow: "/"
+        allow: ["/", "/_next/static/", "/_next/image/"],
+        disallow: ["/admin", "/api", "/_next/data/"]
       }
     ],
     sitemap: "https://www.tollesding.de/sitemap.xml"
