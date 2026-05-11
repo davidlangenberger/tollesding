@@ -31,7 +31,7 @@ export const products: Product[] = [
     storyTeaser:
       "Unsere Kinder mixen im Sommer mit großer Begeisterung ihre eigenen alkoholfreien Cocktails aus Säften, Minze und allem, was ihnen gerade einfällt. Was dabei nie fehlen darf, sind Eiswürfel. Genau deshalb war diese Box bei uns ein echter Wendepunkt: kein Gefrierfach-Gefummel mehr, kein dauerndes Nachproduzieren, sondern eine einfache Lösung, aus der die Kinder ihre Eiswürfel direkt selbst nehmen können.",
     imageAlt:
-      "Eiswürfelbox mit Deckel und Eiswürfelformen auf einem Küchentisch im Familienalltag",
+      "Eiswürfelbox im Einsatz für gekühlte Kindergetränke im Familienalltag",
     category: "Küche",
     tags: ["Sommer", "Kinder", "Küche", "familientauglich"],
     amazonUrl:
@@ -47,7 +47,7 @@ export const products: Product[] = [
     storyTeaser:
       "Genau das war bei uns der Hauptgrund für den Kauf: dieses ständige Ein- und Ausstecken an mehreren Geräten hat genervt, und das lange Watch-Kabel lag immer irgendwie im Weg. Mit der Station reicht abends ein Griff, morgens ist alles geladen und der Platz sieht auch noch deutlich ordentlicher aus. Kein spektakuläres Produkt, aber eines, das jeden Tag leise seine Arbeit macht.",
     imageAlt:
-      "3-in-1 Ladestation für Smartphone, Smartwatch und Kopfhörer auf einem aufgeräumten Tisch",
+      "3-in-1 Ladestation zum gleichzeitigen Laden von Smartphone, Smartwatch und Kopfhörern",
     category: "Technik",
     tags: ["Technik", "Ordnung", "Schlafzimmer", "Apple"],
     amazonUrl: "https://www.amazon.de/dp/B0CCVBQTB8",
@@ -62,7 +62,7 @@ export const products: Product[] = [
     storyTeaser:
       "Unser Sohn spielt fast täglich Fußball, und im Herbst oder Winter war die Frage nach trockenen Schuhen am nächsten Morgen regelmäßig ein Thema. Der entscheidende Tipp kam aus dem Fußballumfeld: nicht irgendein heizender Schuhtrockner, sondern ein Modell mit Gebläse. Seitdem sind selbst richtig nasse Schuhe oft in ein bis zwei Stunden wieder einsatzbereit. Das ist bei uns eines der Produkte mit dem klarsten Aha-Effekt überhaupt.",
     imageAlt:
-      "Schuhtrockner mit Sportschuhen als praktische Lösung für nasse Fußballschuhe",
+      "Schuhtrockner im Einsatz für nasse Fußballschuhe und Sportschuhe",
     category: "Sport",
     tags: ["Sport", "Kinder", "Winter", "Fußball"],
     amazonUrl: "https://www.amazon.de/dp/B0FPQM6F2D",
@@ -77,7 +77,7 @@ export const products: Product[] = [
     storyTeaser:
       "Bei uns ging es ganz konkret um einen teuren Fahrradanhänger und die immer gleiche Frage: Wie macht man ihn sinnvoll fest, wenn man unterwegs kurz anhält oder irgendwo parkt? Seit wir dieses Sicherheitskabel am Anhänger haben, lässt sich der Anhänger einfach direkt mit ans Fahrrad oder an einen Gegenstand in der Nähe anschließen. Besonders praktisch ist das auch mit Kindern: Man kann unterwegs mehrere Kinderräder gleich mit einfädeln und zusammen abschließen, statt jedes einzelne Rad separat zu sichern. Das spart im Alltag wirklich Zeit, Gefummel und unnötige Umstände.",
     imageAlt:
-      "Langes Sicherheitskabel für Fahrradanhänger und Kinderräder im Alltag unterwegs",
+      "Sicherheitskabel zum Abschließen von Fahrradanhänger und Kinderrädern unterwegs",
     category: "Ordnung",
     tags: ["Sicherheit", "Fahrrad", "Kinder", "unterwegs"],
     amazonUrl: "https://www.amazon.de/dp/B00G4A5A4G",
@@ -92,7 +92,7 @@ export const products: Product[] = [
     storyTeaser:
       "Unsere Tochter liebt Turnen, und genau im Winter fehlt oft der einfache Raum dafür. Die Matte passt bei uns in den Flur und macht daraus in wenigen Sekunden eine kleine Turnfläche. Im Sommer kann sie auch in den Garten wandern. Das Schöne daran ist weniger der große Effekt nach außen als die ganz praktische Tatsache, dass Bewegung zuhause plötzlich viel einfacher möglich wird.",
     imageAlt:
-      "Turnmatte im Wohnzimmer mit spielenden und turnenden Kindern",
+      "Turnmatte im Einsatz für Kinder beim Turnen und Bewegen zuhause",
     category: "Sport",
     tags: ["Sport", "Kinder", "Winter", "Zuhause"],
     amazonUrl: "https://www.amazon.de/dp/B0BR5MHBMK",
@@ -107,7 +107,7 @@ export const products: Product[] = [
     storyTeaser:
       "Der Tipp kam von meiner Schwester, nachdem uns normale Reiben im Alltag immer wieder genervt hatten. Seitdem ist Parmesanreiben bei uns keine kleine Küchenstrafarbeit mehr. Unser Sohn liebt Parmesan auf Pasta, nutzt die Reibe selbst gern und genau das sagt schon viel: Wenn ein Produkt oft genutzt wird, leicht funktioniert und danach nicht kompliziert sauberzumachen ist, bleibt es einfach dauerhaft im Einsatz.",
     imageAlt:
-      "Feine Küchenreibe mit frisch geriebenem Parmesan in einer familiären Küchenszene",
+      "Microplane Parmesanreibe im Einsatz für frisch geriebenen Käse in der Familienküche",
     category: "Küche",
     tags: ["Küche", "Parmesan", "Familie", "bewährt"],
     amazonUrl: "https://www.amazon.de/dp/B00151WA06",
@@ -122,7 +122,7 @@ export const products: Product[] = [
     storyTeaser:
       "Mit drei Kindern ist das kein kleines Nebenthema, sondern echte Abendroutine. Nach Schule, Kita und Alltag stehen plötzlich mehrere Flaschen herum, dazu Deckel und wiederverwendbare Strohhalme. Genau deshalb mögen wir diesen Trockner so gern: er sieht nicht störend aus, funktioniert zuverlässig und nimmt dem typischen Küchenchaos am Abend erstaunlich effektiv den Wind aus den Segeln. Sogar Flaschen vom Wassersprudler passen bei uns gut hinein.",
     imageAlt:
-      "Flaschentrockner mit Trinkflaschen und Strohhalmen neben einer Familienküche",
+      "Flaschentrockner im Einsatz für Trinkflaschen und Strohhalme von Kindern",
     category: "Ordnung",
     tags: ["Ordnung", "Küche", "Kinder", "Schule"],
     amazonUrl: "https://www.amazon.de/dp/B09B1CL7HY",
@@ -137,7 +137,7 @@ export const products: Product[] = [
     storyTeaser:
       "Wir haben vorher mehrere Spitzer ausprobiert, auch elektrische, aber wirklich überzeugt hat uns keiner. Entweder waren sie zu schwach oder im Alltag einfach umständlich. Dieser hier ist zwar nicht billig, aber es war der erste, bei dem wir das Gefühl hatten: genau so sollte das funktionieren. Besonders mit zwei Schulkindern merkt man schnell, wie angenehm es ist, wenn viele Stifte in kurzer Zeit sauber gespitzt sind.",
     imageAlt:
-      "Elektrischer Bleistiftspitzer für den Familienalltag mit Schulkindern",
+      "Elektrischer Bleistiftspitzer im Einsatz für Schulkinder",
     category: "Schule",
     tags: ["Schule", "Kinder", "Alltag", "Netzbetrieb"],
     amazonUrl: "https://www.amazon.de/dp/B07M65BJCC",

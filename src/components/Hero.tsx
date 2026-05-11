@@ -10,7 +10,7 @@ export function Hero() {
         <div className="mx-auto max-w-5xl text-center">
           <span className="eyebrow">TollesDing</span>
           <h1 className="mt-5 font-[var(--font-display)] text-[2.8rem] leading-[0.94] text-ink sm:text-6xl lg:text-[4.6rem]">
-            Dinge, die im Alltag wirklich etwas leichter machen.
+            Dinge, die den Familienalltag wirklich leichter machen.
           </h1>
           <p className="mx-auto mt-6 max-w-2xl text-base leading-8 text-ink/72 sm:text-lg">
             Eine persönliche Sammlung für Familien, die gute Lösungen lieben, wenig Zeit

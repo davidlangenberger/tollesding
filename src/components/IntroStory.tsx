@@ -2,9 +2,9 @@ export function IntroStory() {
   return (
     <section className="py-20 sm:py-24">
       <div className="section-shell">
-        <div className="max-w-5xl">
+        <div>
           <span className="eyebrow">Worum es hier geht</span>
-          <div className="mt-4 max-w-4xl space-y-6 text-[1.06rem] leading-8 text-ink/74">
+          <div className="mt-4 space-y-6 text-[1.06rem] leading-8 text-ink/74">
             <h2 className="font-[var(--font-display)] text-3xl leading-tight text-ink sm:text-[2.45rem]">
               <em className="not-italic">TollesDing</em> ist keine Produktliste, die jeden
               Trend mitnimmt. Eher eine ruhige Auswahl der Dinge, die in einem

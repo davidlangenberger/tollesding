@@ -33,7 +33,7 @@ export async function generateMetadata(): Promise<Metadata> {
     "Eltern",
     "Amazon Empfehlungen"
   ],
-    category: "lifestyle",
+    category: "family",
     openGraph: {
       title: siteConfig.title,
       description: siteConfig.ogDescription,

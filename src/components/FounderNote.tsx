@@ -9,8 +9,7 @@ export function FounderNote() {
             Warum es <em className="font-[var(--font-display)] not-italic">TollesDing</em> gibt
           </span>
           <h2 className="mt-4 font-[var(--font-display)] text-3xl leading-tight text-ink sm:text-[2.5rem]">
-            Kein Testportal.
-            <span className="block text-ink/55">Eher ein ehrliches Familienarchiv.</span>
+            Warum <em className="font-[var(--font-display)] not-italic">TollesDing</em> kein typisches Testportal ist.
           </h2>
           <div className="mt-6 grid gap-5 sm:grid-cols-[88px_minmax(0,1fr)] sm:items-start">
             <div className="w-20 overflow-hidden rounded-[1.2rem] bg-sand sm:w-[88px]">

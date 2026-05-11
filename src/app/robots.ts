@@ -6,12 +6,12 @@ export default function robots(): MetadataRoute.Robots {
       {
         userAgent: "*",
         allow: ["/", "/_next/static/", "/_next/image/"],
-        disallow: ["/admin", "/api", "/_next/data/"]
+        disallow: ["/admin", "/api", "/_next/", "/_next/data/"]
       },
       {
         userAgent: "Googlebot",
         allow: ["/", "/_next/static/", "/_next/image/"],
-        disallow: ["/admin", "/api", "/_next/data/"]
+        disallow: ["/admin", "/api", "/_next/", "/_next/data/"]
       }
     ],
     sitemap: "https://www.tollesding.de/sitemap.xml"
