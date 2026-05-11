@@ -11,7 +11,7 @@ export default function Home() {
     "@context": "https://schema.org",
     "@type": "WebSite",
     name: "TollesDing",
-    url: "https://tollesding.de",
+    url: "https://www.tollesding.de",
     inLanguage: "de-DE",
     description:
       "Praktische Alltagshelfer für Familien: ehrlich kuratiert, persönlich bewährt und direkt verlinkt."

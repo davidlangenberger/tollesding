@@ -13,7 +13,7 @@ const manrope = Manrope({
 });
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://tollesding.de"),
+  metadataBase: new URL("https://www.tollesding.de"),
   title: "TollesDing: praktische Alltagshelfer für Familien",
   description:
     "Praktische Alltagshelfer für Familien: ehrlich kuratiert, persönlich bewährt und direkt verlinkt. Entdecke Fundstücke, die wirklich helfen.",
@@ -31,7 +31,7 @@ export const metadata: Metadata = {
     title: "TollesDing: praktische Alltagshelfer für Familien",
     description:
       "Ehrlich kuratierte Alltagshelfer für Familien, die praktische Lösungen lieben.",
-    url: "https://tollesding.de",
+    url: "https://www.tollesding.de",
     siteName: "TollesDing",
     locale: "de_DE",
     type: "website"
@@ -43,7 +43,7 @@ export const metadata: Metadata = {
       "Praktische Alltagshelfer für Familien, ehrlich kuratiert und persönlich bewährt."
   },
   alternates: {
-    canonical: "https://tollesding.de"
+    canonical: "https://www.tollesding.de"
   },
   robots: {
     index: true,

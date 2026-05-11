@@ -12,6 +12,6 @@ export default function robots(): MetadataRoute.Robots {
         allow: "/"
       }
     ],
-    sitemap: "https://tollesding.de/sitemap.xml"
+    sitemap: "https://www.tollesding.de/sitemap.xml"
   };
 }
