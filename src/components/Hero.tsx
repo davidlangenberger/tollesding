@@ -48,9 +48,9 @@ export function Hero() {
             />
           </div>
           <figcaption className="mt-4 max-w-3xl text-sm leading-6 text-ink/54">
-            Vier Dinge stehen im Mittelpunkt dieser ersten Auswahl: eine Sportmatte,
-            eine Eiswürfelbox, ein Flaschentrockner und eine Reibe, die in unserem
-            Alltag nicht dekorativ herumliegen, sondern wirklich benutzt werden.
+            Die Empfehlungen auf dieser Seite sind nicht dafür da, nett auszusehen,
+            sondern den Familienalltag wirklich leichter zu machen. Genau deshalb
+            bleiben sie bei uns dauerhaft im Einsatz.
           </figcaption>
         </figure>
       </div>

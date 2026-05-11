@@ -19,10 +19,10 @@ export function IntroStory() {
               erstaunlich oft vorkommen.
             </p>
             <p>
-              Statt möglichst viel zu zeigen, startet diese Seite bewusst mit vier
-              Fundstücken, für die auch die Bildsprache schon so sitzt, wie sie sitzen
-              soll. Die anderen Dinge kommen wieder dazu, sobald ihre Bilder denselben
-              ruhigen, hochwertigen Ton treffen.
+              Es geht hier nicht um Masse. Auf diese Seite kommen nur Dinge, die sich
+              bei uns über längere Zeit bewährt haben und im Alltag wirklich etwas
+              verändern. Lieber eine kleinere Auswahl mit Substanz als eine lange Liste
+              voller Mittelmaß.
             </p>
           </div>
         </div>

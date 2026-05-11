@@ -16,17 +16,6 @@ export function Footer() {
               <em className="font-[var(--font-display)] not-italic text-ink">TollesDing</em> ist eine persönliche Sammlung von Dingen, die in einem vollen
               Familienalltag wirklich helfen.
             </p>
-            <div className="mt-5 flex flex-wrap gap-3 text-sm">
-              <a className="focus-ring rounded-full border border-ink/10 px-4 py-2 text-ink/70 hover:bg-white/70" href="#impressum">
-                Impressum
-              </a>
-              <a className="focus-ring rounded-full border border-ink/10 px-4 py-2 text-ink/70 hover:bg-white/70" href="#datenschutz">
-                Datenschutz
-              </a>
-              <a className="focus-ring rounded-full border border-ink/10 px-4 py-2 text-ink/70 hover:bg-white/70" href="#affiliate-info">
-                Affiliate
-              </a>
-            </div>
           </div>
 
           <div className="lg:col-span-2">
