@@ -143,35 +143,5 @@ export const products: Product[] = [
     amazonUrl: "https://www.amazon.de/dp/B09B1CL7HY",
     image: "/products/flaschen-trockner.png",
     featured: false
-  },
-  {
-    id: "airtrack-matte",
-    title: "AirTrack-Turnmatte",
-    shortBenefit:
-      "Wenn Kinder sich gern bewegen, turnen und auch zuhause nicht stillsitzen wollen, ist eine gute Turnmatte überraschend viel wert. Sie schafft einen sicheren Rahmen für Räder, Kopfstand und kleine Turneinheiten, gerade dann, wenn Garten, Verein oder Spielplatz wetterbedingt ausfallen.",
-    storyTeaser:
-      "Unsere Tochter liebt Turnen, und genau im Winter fehlt oft der einfache Raum dafür. Die Matte passt bei uns in den Flur und macht daraus in wenigen Sekunden eine kleine Turnfläche. Im Sommer kann sie auch in den Garten wandern. Das Schöne daran ist weniger der große Effekt nach außen als die ganz praktische Tatsache, dass Bewegung zuhause plötzlich viel einfacher möglich wird.",
-    imageAlt:
-      "Turnmatte im Einsatz für Kinder beim Turnen und Bewegen zuhause",
-    category: "Sport",
-    tags: ["Sport", "Kinder", "Winter", "Zuhause"],
-    amazonUrl: "https://www.amazon.de/dp/B0BR5MHBMK",
-    image: "/products/airtrack-matte.png",
-    featured: false
-  },
-  {
-    id: "bleistiftspitzer-dahle",
-    title: "Elektrischer Bleistiftspitzer",
-    shortBenefit:
-      "Mit Schulkindern wird Stiftespitzen schnell von einer Nebensache zu einer ziemlich regelmäßigen Aufgabe. Dieses Modell spart dabei nicht nur Zeit, sondern auch Nerven: es arbeitet schnell, sauber und vor allem mit Netzanschluss statt mit ständig leeren Batterien.",
-    storyTeaser:
-      "Wir haben vorher mehrere Spitzer ausprobiert, auch elektrische, aber wirklich überzeugt hat uns keiner. Entweder waren sie zu schwach oder im Alltag einfach umständlich. Dieser hier ist zwar nicht billig, aber es war der erste, bei dem wir das Gefühl hatten: genau so sollte das funktionieren. Besonders mit zwei Schulkindern merkt man schnell, wie angenehm es ist, wenn viele Stifte in kurzer Zeit sauber gespitzt sind.",
-    imageAlt:
-      "Elektrischer Bleistiftspitzer im Einsatz für Schulkinder",
-    category: "Schule",
-    tags: ["Schule", "Kinder", "Alltag", "Netzbetrieb"],
-    amazonUrl: "https://www.amazon.de/dp/B07M65BJCC",
-    image: "/products/bleistiftspitzer.png",
-    featured: false
   }
 ];
