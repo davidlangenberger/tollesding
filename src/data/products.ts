@@ -39,6 +39,21 @@ export const products: Product[] = [
     featured: true
   },
   {
+    id: "usb-ladegeraet",
+    title: "USB-Mehrfachladegerät",
+    shortBenefit:
+      "Ein zentrales USB-Ladegerät mit vielen USB-A- und USB-C-Anschlüssen sorgt bei uns für genau das, was im Familienalltag sonst schnell verloren geht: einen festen, aufgeräumten Ladeplatz für alle Geräte. Statt Netzteile in verschiedenen Zimmern, losen Steckern und langen Kabeln liegt alles an einem Ort, auf den jeder direkt zugreifen kann.",
+    storyTeaser:
+      "Genau das ist bei uns der große Vorteil dieses Ladegeräts: Es steht an einem festen Platz und daran hängen die kurzen Kabel, die wir wirklich brauchen. Lightning für ein älteres iPhone, USB-C für die Tablets der Kinder, Micro-USB fürs E-Book und dazu noch weitere Kabel für Uhr oder andere Geräte. Dadurch muss niemand mehr erst Ladegeräte zusammensuchen oder Kabel entwirren. Gerade mit den sehr kurzen Kabeln bleibt alles deutlich ordentlicher und alltagstauglicher. Für uns ist das eine dieser unspektakulären Lösungen, die den Haushalt spürbar aufräumen.",
+    imageAlt:
+      "USB-Mehrfachladegerät mit mehreren USB-A- und USB-C-Anschlüssen als zentrale Ladestation im Familienalltag",
+    category: "Technik",
+    tags: ["Technik", "Ordnung", "Ladestation", "Familie"],
+    amazonUrl: "https://www.amazon.de/dp/B0D7MTHGS2",
+    image: "/products/usb-ladegeraet.png",
+    featured: true
+  },
+  {
     id: "airtrack-matte",
     title: "AirTrack-Turnmatte",
     shortBenefit:
@@ -66,6 +81,21 @@ export const products: Product[] = [
     tags: ["Schule", "Kinder", "Alltag", "Netzbetrieb"],
     amazonUrl: "https://www.amazon.de/dp/B07M65BJCC",
     image: "/products/bleistiftspitzer.png",
+    featured: false
+  },
+  {
+    id: "kurzes-ladekabel",
+    title: "Kurzes Ladekabel",
+    shortBenefit:
+      "Kurze Ladekabel sind kein spektakuläres Produkt, aber genau in Kombination mit einem festen Ladeplatz extrem sinnvoll. Sie vermeiden das übliche Kabelchaos, hängen nicht überall herunter und machen aus einer Ladeecke einen wirklich aufgeräumten Ort, an dem jeder sein Gerät schnell anschließen kann.",
+    storyTeaser:
+      "Bei uns funktioniert das vor allem zusammen mit dem Mehrfachladegerät: Statt lange Kabel aus Schubladen zu ziehen, sind dort einfach die kurzen Varianten angeschlossen, die wir im Alltag brauchen. Das macht einen erstaunlich großen Unterschied, weil nichts verknotet, nichts im Weg liegt und trotzdem alle Geräte schnell geladen werden können. Gerade für Familien mit vielen unterschiedlichen Anschlüssen ist das eine angenehm praktische Ergänzung.",
+    imageAlt:
+      "Kurzes Ladekabel als platzsparende Lösung für eine aufgeräumte Ladestation",
+    category: "Technik",
+    tags: ["Technik", "Ordnung", "Kabel", "Laden"],
+    amazonUrl: "https://www.amazon.de/dp/B0DL9MKRKT",
+    image: null,
     featured: false
   },
   {
