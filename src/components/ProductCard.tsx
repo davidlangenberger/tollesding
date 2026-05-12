@@ -9,7 +9,12 @@ type ProductCardProps = {
 };
 
 export function ProductCard({ product, index }: ProductCardProps) {
-  const link = withAssociateTag(product.amazonUrl);
+  const links = (product.amazonLinks ?? [
+    { label: "Bei Amazon ansehen", url: product.amazonUrl }
+  ]).map((item) => ({
+    ...item,
+    url: withAssociateTag(item.url)
+  }));
   const reversed = index % 2 === 1;
   const taxonomy = [product.category, ...product.tags.slice(0, 2)];
 
@@ -73,16 +78,19 @@ export function ProductCard({ product, index }: ProductCardProps) {
             <p className="mt-5 text-sm leading-7 text-ink/54">Hinweis: {product.note}</p>
           ) : null}
 
-          <div className="mt-8">
-            <a
-              className="focus-ring inline-flex min-h-12 items-center gap-2 rounded-full border border-ink/15 bg-white/88 px-5 py-3 text-sm font-semibold text-ink shadow-sm transition hover:border-ink/25 hover:bg-white"
-              href={link}
-              target="_blank"
-              rel={hasAmazonAssociateTag() ? "noopener noreferrer sponsored nofollow" : "noopener noreferrer nofollow"}
-            >
-              Bei Amazon ansehen
-              <span aria-hidden>↗</span>
-            </a>
+          <div className="mt-8 flex flex-wrap gap-3">
+            {links.map((item) => (
+              <a
+                key={`${product.id}-${item.label}`}
+                className="focus-ring inline-flex min-h-12 items-center gap-2 rounded-full border border-ink/15 bg-white/88 px-5 py-3 text-sm font-semibold text-ink shadow-sm transition hover:border-ink/25 hover:bg-white"
+                href={item.url}
+                target="_blank"
+                rel={hasAmazonAssociateTag() ? "noopener noreferrer sponsored nofollow" : "noopener noreferrer nofollow"}
+              >
+                {item.label}
+                <span aria-hidden>↗</span>
+              </a>
+            ))}
           </div>
         </div>
       </div>
