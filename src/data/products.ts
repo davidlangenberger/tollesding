@@ -24,6 +24,51 @@ export const AMAZON_ASSOCIATE_TAG: string = "tollesding-21";
 
 export const products: Product[] = [
   {
+    id: "schuhtrockner",
+    title: "Schuhtrockner mit Gebläse",
+    shortBenefit:
+      "Gerade für Familien mit sportlichen Kindern ist ein guter Schuhtrockner fast schon ein kleines Rettungsgerät. Nasse Fußballschuhe, feuchte Hallenschuhe oder durchweichte Winterstiefel trocknen deutlich schneller als auf der Heizung, und genau das macht an regnerischen Trainingswochen einen echten Unterschied.",
+    storyTeaser:
+      "Unser Sohn spielt fast täglich Fußball, und im Herbst oder Winter war die Frage nach trockenen Schuhen am nächsten Morgen regelmäßig ein Thema. Der entscheidende Tipp kam aus dem Fußballumfeld: nicht irgendein heizender Schuhtrockner, sondern ein Modell mit Gebläse. Seitdem sind selbst richtig nasse Schuhe oft in ein bis zwei Stunden wieder einsatzbereit. Das ist bei uns eines der Produkte mit dem klarsten Aha-Effekt überhaupt.",
+    imageAlt:
+      "Schuhtrockner im Einsatz für nasse Fußballschuhe und Sportschuhe",
+    category: "Sport",
+    tags: ["Sport", "Kinder", "Winter", "Fußball"],
+    amazonUrl: "https://www.amazon.de/dp/B0FPQM6F2D",
+    image: "/products/schuhtrockner.png",
+    featured: true
+  },
+  {
+    id: "airtrack-matte",
+    title: "AirTrack-Turnmatte",
+    shortBenefit:
+      "Wenn Kinder sich gern bewegen, turnen und auch zuhause nicht stillsitzen wollen, ist eine gute Turnmatte überraschend viel wert. Sie schafft einen sicheren Rahmen für Räder, Kopfstand und kleine Turneinheiten, gerade dann, wenn Garten, Verein oder Spielplatz wetterbedingt ausfallen.",
+    storyTeaser:
+      "Unsere Tochter liebt Turnen, und genau im Winter fehlt oft der einfache Raum dafür. Die Matte passt bei uns in den Flur und macht daraus in wenigen Sekunden eine kleine Turnfläche. Im Sommer kann sie auch in den Garten wandern. Das Schöne daran ist weniger der große Effekt nach außen als die ganz praktische Tatsache, dass Bewegung zuhause plötzlich viel einfacher möglich wird.",
+    imageAlt:
+      "Turnmatte im Einsatz für Kinder beim Turnen und Bewegen zuhause",
+    category: "Sport",
+    tags: ["Sport", "Kinder", "Winter", "Zuhause"],
+    amazonUrl: "https://www.amazon.de/dp/B0BR5MHBMK",
+    image: "/products/airtrack-matte.png",
+    featured: false
+  },
+  {
+    id: "bleistiftspitzer-dahle",
+    title: "Elektrischer Bleistiftspitzer",
+    shortBenefit:
+      "Mit Schulkindern wird Stiftespitzen schnell von einer Nebensache zu einer ziemlich regelmäßigen Aufgabe. Dieses Modell spart dabei nicht nur Zeit, sondern auch Nerven: es arbeitet schnell, sauber und vor allem mit Netzanschluss statt mit ständig leeren Batterien.",
+    storyTeaser:
+      "Wir haben vorher mehrere Spitzer ausprobiert, auch elektrische, aber wirklich überzeugt hat uns keiner. Entweder waren sie zu schwach oder im Alltag einfach umständlich. Dieser hier ist zwar nicht billig, aber es war der erste, bei dem wir das Gefühl hatten: genau so sollte das funktionieren. Besonders mit zwei Schulkindern merkt man schnell, wie angenehm es ist, wenn viele Stifte in kurzer Zeit sauber gespitzt sind.",
+    imageAlt:
+      "Elektrischer Bleistiftspitzer im Einsatz für Schulkinder",
+    category: "Schule",
+    tags: ["Schule", "Kinder", "Alltag", "Netzbetrieb"],
+    amazonUrl: "https://www.amazon.de/dp/B07M65BJCC",
+    image: "/products/bleistiftspitzer.png",
+    featured: false
+  },
+  {
     id: "eiswuerfelbox",
     title: "Eiswürfelbox mit Deckel",
     shortBenefit:
@@ -55,21 +100,6 @@ export const products: Product[] = [
     featured: true
   },
   {
-    id: "schuhtrockner",
-    title: "Schuhtrockner mit Gebläse",
-    shortBenefit:
-      "Gerade für Familien mit sportlichen Kindern ist ein guter Schuhtrockner fast schon ein kleines Rettungsgerät. Nasse Fußballschuhe, feuchte Hallenschuhe oder durchweichte Winterstiefel trocknen deutlich schneller als auf der Heizung, und genau das macht an regnerischen Trainingswochen einen echten Unterschied.",
-    storyTeaser:
-      "Unser Sohn spielt fast täglich Fußball, und im Herbst oder Winter war die Frage nach trockenen Schuhen am nächsten Morgen regelmäßig ein Thema. Der entscheidende Tipp kam aus dem Fußballumfeld: nicht irgendein heizender Schuhtrockner, sondern ein Modell mit Gebläse. Seitdem sind selbst richtig nasse Schuhe oft in ein bis zwei Stunden wieder einsatzbereit. Das ist bei uns eines der Produkte mit dem klarsten Aha-Effekt überhaupt.",
-    imageAlt:
-      "Schuhtrockner im Einsatz für nasse Fußballschuhe und Sportschuhe",
-    category: "Sport",
-    tags: ["Sport", "Kinder", "Winter", "Fußball"],
-    amazonUrl: "https://www.amazon.de/dp/B0FPQM6F2D",
-    image: "/products/schuhtrockner.png",
-    featured: true
-  },
-  {
     id: "sicherheitskabel-burg-waechter",
     title: "Burg-Wächter Sicherheitskabel",
     shortBenefit:
@@ -82,21 +112,6 @@ export const products: Product[] = [
     tags: ["Sicherheit", "Fahrrad", "Kinder", "unterwegs"],
     amazonUrl: "https://www.amazon.de/dp/B00G4A5A4G",
     image: "/products/sicherheitskabel.png",
-    featured: false
-  },
-  {
-    id: "airtrack-matte",
-    title: "AirTrack-Turnmatte",
-    shortBenefit:
-      "Wenn Kinder sich gern bewegen, turnen und auch zuhause nicht stillsitzen wollen, ist eine gute Turnmatte überraschend viel wert. Sie schafft einen sicheren Rahmen für Räder, Kopfstand und kleine Turneinheiten, gerade dann, wenn Garten, Verein oder Spielplatz wetterbedingt ausfallen.",
-    storyTeaser:
-      "Unsere Tochter liebt Turnen, und genau im Winter fehlt oft der einfache Raum dafür. Die Matte passt bei uns in den Flur und macht daraus in wenigen Sekunden eine kleine Turnfläche. Im Sommer kann sie auch in den Garten wandern. Das Schöne daran ist weniger der große Effekt nach außen als die ganz praktische Tatsache, dass Bewegung zuhause plötzlich viel einfacher möglich wird.",
-    imageAlt:
-      "Turnmatte im Einsatz für Kinder beim Turnen und Bewegen zuhause",
-    category: "Sport",
-    tags: ["Sport", "Kinder", "Winter", "Zuhause"],
-    amazonUrl: "https://www.amazon.de/dp/B0BR5MHBMK",
-    image: "/products/airtrack-matte.png",
     featured: false
   },
   {
@@ -127,6 +142,21 @@ export const products: Product[] = [
     tags: ["Ordnung", "Küche", "Kinder", "Schule"],
     amazonUrl: "https://www.amazon.de/dp/B09B1CL7HY",
     image: "/products/flaschen-trockner.png",
+    featured: false
+  },
+  {
+    id: "airtrack-matte",
+    title: "AirTrack-Turnmatte",
+    shortBenefit:
+      "Wenn Kinder sich gern bewegen, turnen und auch zuhause nicht stillsitzen wollen, ist eine gute Turnmatte überraschend viel wert. Sie schafft einen sicheren Rahmen für Räder, Kopfstand und kleine Turneinheiten, gerade dann, wenn Garten, Verein oder Spielplatz wetterbedingt ausfallen.",
+    storyTeaser:
+      "Unsere Tochter liebt Turnen, und genau im Winter fehlt oft der einfache Raum dafür. Die Matte passt bei uns in den Flur und macht daraus in wenigen Sekunden eine kleine Turnfläche. Im Sommer kann sie auch in den Garten wandern. Das Schöne daran ist weniger der große Effekt nach außen als die ganz praktische Tatsache, dass Bewegung zuhause plötzlich viel einfacher möglich wird.",
+    imageAlt:
+      "Turnmatte im Einsatz für Kinder beim Turnen und Bewegen zuhause",
+    category: "Sport",
+    tags: ["Sport", "Kinder", "Winter", "Zuhause"],
+    amazonUrl: "https://www.amazon.de/dp/B0BR5MHBMK",
+    image: "/products/airtrack-matte.png",
     featured: false
   },
   {
