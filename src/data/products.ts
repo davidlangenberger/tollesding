@@ -68,6 +68,21 @@ export const products: Product[] = [
     featured: true
   },
   {
+    id: "nuki-smart-lock",
+    title: "Nuki Smart Lock",
+    shortBenefit:
+      "Für Häuser oder Wohnungen mit eigener Haustür ist dieses Smart Lock eine der praktischsten Lösungen überhaupt. Es lässt sich ohne Bohren und ohne Schrauben montieren, wird einfach über den eingesteckten Schlüssel gesetzt und macht aus einer normalen Tür in wenigen Minuten einen sehr alltagstauglichen, digitalen Zugang.",
+    storyTeaser:
+      "Für uns ist genau das der große Vorteil: kein komplizierter Umbau, keine Bohrung, kein dauerhaftes Gefrickel. Das Schloss sitzt schnell an der Tür und lässt sich direkt per Handy öffnen. Wirklich stark wird das Ganze aber im Zusammenspiel mit dem Keypad: Die Kinder können per Fingerabdruck selbstständig rein, und ich sehe auf dem Handy, ob schon jemand zuhause angekommen ist. Gerade weil ich kein Fan davon bin, Kinder per Uhr zu tracken, ist das für uns eine sehr praktische und angenehm unaufgeregte Lösung.",
+    imageAlt:
+      "Nuki Smart Lock an einer Wohnungstür als praktisches digitales Türschloss für Familien",
+    category: "Technik",
+    tags: ["Technik", "Sicherheit", "Zuhause", "Smart Home"],
+    amazonUrl: "https://www.amazon.de/dp/B0DX2FPQFQ",
+    image: "/products/smart-lock.png",
+    featured: true
+  },
+  {
     id: "airtrack-matte",
     title: "AirTrack-Turnmatte",
     shortBenefit:
@@ -80,6 +95,36 @@ export const products: Product[] = [
     tags: ["Sport", "Kinder", "Winter", "Zuhause"],
     amazonUrl: "https://www.amazon.de/dp/B0BR5MHBMK",
     image: "/products/airtrack-matte.png",
+    featured: false
+  },
+  {
+    id: "saugroboter",
+    title: "Dreame Saugroboter mit Wischfunktion",
+    shortBenefit:
+      "Ein guter Saugroboter nimmt nicht nur ein bisschen Staub mit, sondern spart im Alltag spürbar Arbeit. Gerade die Wischfunktion ist bei diesem Modell für uns der eigentliche Unterschied, weil sie einen großen Teil der regelmäßigen Bodenpflege zuverlässig übernimmt und damit erstaunlich viel Zeit freiräumt.",
+    storyTeaser:
+      "Ich bin ein großer Fan dieses Roboters, vor allem wegen des Mop-Systems. In unserer Wohnung funktioniert das sehr gut, weil ich Parkett und Fliesen habe und für den Echtholzboden einen bestimmten Mop und ein passendes Reinigungsmittel nutze, während für die Fliesen etwas anderes eingesetzt wird. Das nimmt mir wirklich viel Arbeit ab. Man muss aber ehrlich sagen: In einer Wohnung auf einer Ebene ist das deutlich einfacher. Sobald mehrere Geschosse oder kompliziertere Grundrisse dazukommen, stößt so ein Gerät schneller an Grenzen. Für uns persönlich ist er trotzdem eine enorme Erleichterung.",
+    imageAlt:
+      "Saugroboter mit Wischfunktion als Alltagshilfe für Parkett und Fliesen in einer Wohnung",
+    category: "Ordnung",
+    tags: ["Ordnung", "Haushalt", "Wischen", "Technik"],
+    amazonUrl: "https://www.amazon.de/dp/B0GKP9H2W1",
+    image: "/products/saugroboter.png",
+    featured: true
+  },
+  {
+    id: "nuki-keypad",
+    title: "Nuki Keypad mit Fingerabdrucksensor",
+    shortBenefit:
+      "Das Keypad ist die Ergänzung, die aus dem Smart Lock für Familien erst ein wirklich komfortables Alltagssystem macht. Statt Schlüssel zu organisieren oder ständig das Handy griffbereit zu brauchen, können Kinder und Erwachsene per Code oder Fingerabdruck direkt in die Wohnung.",
+    storyTeaser:
+      "Bei uns ist genau das der entscheidende Punkt: Jedes Kind hat seinen Fingerabdruck hinterlegt und kann dadurch selbstständig in die Wohnung. Für mich ist das viel angenehmer, weil ich auf dem Handy sehen kann, ob die Kinder schon zuhause angekommen sind, ohne dass ich ihnen dafür eine Uhr zum Tracken umhängen muss. Im Zusammenspiel mit dem Nuki Smart Lock ist das deshalb keine Spielerei, sondern eine Lösung, die unseren Alltag spürbar vereinfacht hat.",
+    imageAlt:
+      "Nuki Keypad mit Fingerabdrucksensor als smarter Zugang für Kinder und Familien",
+    category: "Technik",
+    tags: ["Technik", "Sicherheit", "Fingerabdruck", "Smart Home"],
+    amazonUrl: "https://www.amazon.de/dp/B0GQH7GF7M",
+    image: null,
     featured: false
   },
   {
@@ -111,21 +156,6 @@ export const products: Product[] = [
     amazonUrl:
       "https://www.amazon.de/TOPAHGOD-Eisw%C3%BCrfelform-Eisw%C3%BCrfelbeh%C3%A4lter-Einfaches-Eisw%C3%BCrfelbox/dp/B0DGL1HH57",
     image: "/products/eiswuerfelbox.png",
-    featured: true
-  },
-  {
-    id: "wireless-ladestation",
-    title: "3-in-1 Ladestation",
-    shortBenefit:
-      "Wer keine Lust auf herumliegende Kabel, lose Ladepads und ein ständig verschwundenes Apple-Watch-Kabel hat, bekommt hier eine angenehm aufgeräumte Lösung. iPhone, Apple Watch und AirPods landen abends an einem festen Platz, laden gleichzeitig und sorgen nebenbei für deutlich mehr Ruhe auf dem Nachttisch oder Schreibtisch.",
-    storyTeaser:
-      "Genau das war bei uns der Hauptgrund für den Kauf: dieses ständige Ein- und Ausstecken an mehreren Geräten hat genervt, und das lange Watch-Kabel lag immer irgendwie im Weg. Mit der Station reicht abends ein Griff, morgens ist alles geladen und der Platz sieht auch noch deutlich ordentlicher aus. Kein spektakuläres Produkt, aber eines, das jeden Tag leise seine Arbeit macht.",
-    imageAlt:
-      "3-in-1 Ladestation zum gleichzeitigen Laden von Smartphone, Smartwatch und Kopfhörern",
-    category: "Technik",
-    tags: ["Technik", "Ordnung", "Schlafzimmer", "Apple"],
-    amazonUrl: "https://www.amazon.de/dp/B0CCVBQTB8",
-    image: "/products/wireless-ladestation.png",
     featured: true
   },
   {
@@ -172,5 +202,20 @@ export const products: Product[] = [
     amazonUrl: "https://www.amazon.de/dp/B09B1CL7HY",
     image: "/products/flaschen-trockner.png",
     featured: false
+  },
+  {
+    id: "wireless-ladestation",
+    title: "3-in-1 Ladestation",
+    shortBenefit:
+      "Wer keine Lust auf herumliegende Kabel, lose Ladepads und ein ständig verschwundenes Apple-Watch-Kabel hat, bekommt hier eine angenehm aufgeräumte Lösung. iPhone, Apple Watch und AirPods landen abends an einem festen Platz, laden gleichzeitig und sorgen nebenbei für deutlich mehr Ruhe auf dem Nachttisch oder Schreibtisch.",
+    storyTeaser:
+      "Genau das war bei uns der Hauptgrund für den Kauf: dieses ständige Ein- und Ausstecken an mehreren Geräten hat genervt, und das lange Watch-Kabel lag immer irgendwie im Weg. Mit der Station reicht abends ein Griff, morgens ist alles geladen und der Platz sieht auch noch deutlich ordentlicher aus. Kein spektakuläres Produkt, aber eines, das jeden Tag leise seine Arbeit macht.",
+    imageAlt:
+      "3-in-1 Ladestation zum gleichzeitigen Laden von Smartphone, Smartwatch und Kopfhörern",
+    category: "Technik",
+    tags: ["Technik", "Ordnung", "Schlafzimmer", "Apple"],
+    amazonUrl: "https://www.amazon.de/dp/B0CCVBQTB8",
+    image: "/products/wireless-ladestation.png",
+    featured: true
   }
 ];
