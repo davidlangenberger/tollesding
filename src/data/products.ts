@@ -69,16 +69,26 @@ export const products: Product[] = [
   },
   {
     id: "nuki-smart-lock",
-    title: "Nuki Smart Lock",
+    title: "Nuki Smart Lock mit Keypad",
     shortBenefit:
-      "Für Häuser oder Wohnungen mit eigener Haustür ist dieses Smart Lock eine der praktischsten Lösungen überhaupt. Es lässt sich ohne Bohren und ohne Schrauben montieren, wird einfach über den eingesteckten Schlüssel gesetzt und macht aus einer normalen Tür in wenigen Minuten einen sehr alltagstauglichen, digitalen Zugang.",
+      "Für Häuser oder Wohnungen mit eigener Haustür ist dieses Setup aus Smart Lock und Keypad eine der praktischsten Lösungen überhaupt. Das Schloss lässt sich ohne Bohren und ohne Schrauben montieren, und mit dem zusätzlichen Keypad wird daraus ein sehr unkomplizierter, digitaler Zugang für die ganze Familie.",
     storyTeaser:
-      "Für uns ist genau das der große Vorteil: kein komplizierter Umbau, keine Bohrung, kein dauerhaftes Gefrickel. Das Schloss sitzt schnell an der Tür und lässt sich direkt per Handy öffnen. Wirklich stark wird das Ganze aber im Zusammenspiel mit dem Keypad: Die Kinder können per Fingerabdruck selbstständig rein, und ich sehe auf dem Handy, ob schon jemand zuhause angekommen ist. Gerade weil ich kein Fan davon bin, Kinder per Uhr zu tracken, ist das für uns eine sehr praktische und angenehm unaufgeregte Lösung.",
+      "Für uns ist genau das der große Vorteil: kein komplizierter Umbau, keine Bohrung, kein dauerhaftes Gefrickel. Das Schloss sitzt schnell an der Tür und lässt sich direkt per Handy öffnen. Wirklich stark wird das Ganze aber im Zusammenspiel mit dem Keypad: Die Kinder können per Fingerabdruck selbstständig rein, und ich sehe auf dem Handy, ob schon jemand zuhause angekommen ist. Gerade weil ich kein Fan davon bin, Kinder per Uhr zu tracken, ist das für uns eine sehr praktische und angenehm unaufgeregte Lösung, die unseren Alltag spürbar vereinfacht.",
     imageAlt:
       "Nuki Smart Lock an einer Wohnungstür als praktisches digitales Türschloss für Familien",
     category: "Technik",
     tags: ["Technik", "Sicherheit", "Zuhause", "Smart Home"],
     amazonUrl: "https://www.amazon.de/dp/B0DX2FPQFQ",
+    amazonLinks: [
+      {
+        label: "Smart Lock bei Amazon ansehen",
+        url: "https://www.amazon.de/dp/B0DX2FPQFQ"
+      },
+      {
+        label: "Keypad bei Amazon ansehen",
+        url: "https://www.amazon.de/dp/B0GQH7GF7M"
+      }
+    ],
     image: "/products/smart-lock.png",
     featured: true
   },
@@ -111,21 +121,6 @@ export const products: Product[] = [
     amazonUrl: "https://www.amazon.de/dp/B0GKP9H2W1",
     image: "/products/saugroboter.png",
     featured: true
-  },
-  {
-    id: "nuki-keypad",
-    title: "Nuki Keypad mit Fingerabdrucksensor",
-    shortBenefit:
-      "Das Keypad ist die Ergänzung, die aus dem Smart Lock für Familien erst ein wirklich komfortables Alltagssystem macht. Statt Schlüssel zu organisieren oder ständig das Handy griffbereit zu brauchen, können Kinder und Erwachsene per Code oder Fingerabdruck direkt in die Wohnung.",
-    storyTeaser:
-      "Bei uns ist genau das der entscheidende Punkt: Jedes Kind hat seinen Fingerabdruck hinterlegt und kann dadurch selbstständig in die Wohnung. Für mich ist das viel angenehmer, weil ich auf dem Handy sehen kann, ob die Kinder schon zuhause angekommen sind, ohne dass ich ihnen dafür eine Uhr zum Tracken umhängen muss. Im Zusammenspiel mit dem Nuki Smart Lock ist das deshalb keine Spielerei, sondern eine Lösung, die unseren Alltag spürbar vereinfacht hat.",
-    imageAlt:
-      "Nuki Keypad mit Fingerabdrucksensor als smarter Zugang für Kinder und Familien",
-    category: "Technik",
-    tags: ["Technik", "Sicherheit", "Fingerabdruck", "Smart Home"],
-    amazonUrl: "https://www.amazon.de/dp/B0GQH7GF7M",
-    image: null,
-    featured: false
   },
   {
     id: "bleistiftspitzer-dahle",
