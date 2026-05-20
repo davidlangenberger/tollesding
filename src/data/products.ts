@@ -212,5 +212,20 @@ export const products: Product[] = [
     amazonUrl: "https://www.amazon.de/dp/B0CCVBQTB8",
     image: "/products/wireless-ladestation.png",
     featured: true
+  },
+  {
+    id: "minigeblaese",
+    title: "Minigebläse",
+    shortBenefit:
+      "Ein kleines Akkubläser-/Minigebläse ist eins dieser Werkzeuge, die man überraschend oft braucht: schnell Dreck aus Ecken pusten, Tastaturen reinigen, Schuhe auspusten oder den Grill sauberer bekommen, ohne mit Bürste und Lappen ewig herumzumachen.",
+    storyTeaser:
+      "Auf die Idee hat mich ein Mitbewohner aus unserer Baugemeinschaft gebracht. Seitdem taucht das Minigebläse bei uns immer wieder auf, wenn irgendwo feiner Schmutz sitzt oder etwas schnell sauber werden soll: Grill, Tastatur, Schuhe und viele Kleinigkeiten mehr. Es ist weniger ein klassisches Familienthema und eher ein praktisches Tool, aber genau deshalb wollte ich es hier aufnehmen.",
+    imageAlt:
+      "Minigebläse zum Auspusten von Grill, Tastatur oder Schuhen als praktisches Werkzeug",
+    category: "Technik",
+    tags: ["Technik", "Werkzeug", "Ordnung", "Reinigung"],
+    amazonUrl: "https://www.amazon.de/dp/B0DSW7R4VN",
+    image: "/products/minigeblaese.png",
+    featured: false
   }
 ];
