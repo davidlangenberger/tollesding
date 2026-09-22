@@ -1,11 +1,11 @@
 export const siteConfig = {
   name: "TollesDing",
   siteUrl: "https://www.tollesding.de",
-  title: "TollesDing | Ehrliche Alltags-Helfer für Familien (Geprüft in Augsburg)",
+  title: "TollesDing | Praktische Dinge, die wirklich helfen",
   description:
-    "Keine Fake-Tests. Nur Dinge, die unseren Alltag mit 3 Kindern wirklich erleichtern. Von der Eiswürfelbox bis zum Schuhtrockner – persönlich ausgewählt.",
+    "Sinnvolle Alltagshelfer für Zuhause und Familie: ehrlich ausgewählt, verständlich erklärt und ohne Fake-Tests oder beliebige Produktlisten.",
   ogDescription:
-    "Keine Fake-Tests. Nur Dinge, die unseren Alltag mit 3 Kindern wirklich erleichtern."
+    "Sinnvolle Alltagshelfer für Zuhause und Familie – ehrlich ausgewählt und verständlich erklärt."
 } as const;
 
 export function absoluteUrl(path = "/") {

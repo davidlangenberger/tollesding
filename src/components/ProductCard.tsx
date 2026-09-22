@@ -16,28 +16,27 @@ export function ProductCard({ product, index }: ProductCardProps) {
     url: withAssociateTag(item.url)
   }));
   const reversed = index % 2 === 1;
-  const taxonomy = [product.category, ...product.tags.slice(0, 2)];
+  const taxonomy = product.tags.slice(0, 3);
 
   return (
-    <article id={product.id} className="border-t border-ink/10 pt-12 first:border-t-0 first:pt-0 sm:pt-16">
-      <div
-        className={`grid gap-8 lg:grid-cols-12 lg:gap-10 xl:gap-14 ${
-          reversed ? "lg:items-end" : "lg:items-start"
-        }`}
-      >
-        <div className={`${reversed ? "lg:order-2" : ""} lg:col-span-7`}>
-          <div className="overflow-hidden rounded-[1.6rem] bg-[#ece6dc] shadow-[0_24px_54px_rgba(62,49,37,0.11)]">
+    <article
+      id={product.id}
+      className="group scroll-mt-24 border-t border-ink/[0.08] pt-14 first:border-t-0 first:pt-0 sm:pt-20"
+    >
+      <div className="grid gap-8 lg:grid-cols-[minmax(0,0.78fr)_minmax(0,1.22fr)] lg:items-center lg:gap-14 xl:gap-20">
+        <div className={reversed ? "lg:order-2" : ""}>
+          <div className="mx-auto max-w-[30rem] overflow-hidden rounded-[1.5rem] bg-[#f0ede7] shadow-[0_18px_50px_rgba(31,41,55,0.08)]">
             {product.image ? (
               <Image
                 src={product.image}
                 alt={product.imageAlt}
                 width={1200}
                 height={900}
-                sizes="(max-width: 1024px) 100vw, 62vw"
-                quality={74}
+                sizes="(max-width: 640px) 100vw, (max-width: 1024px) 480px, 410px"
+                quality={75}
                 placeholder="blur"
                 blurDataURL={productBlurDataURL}
-                className="h-auto w-full object-cover transition duration-500 group-hover:scale-[1.01]"
+                className="aspect-[4/3] h-auto w-full object-contain transition duration-700 group-hover:scale-[1.015]"
               />
             ) : (
               <div className="flex min-h-[24rem] items-end justify-between bg-white px-6 py-6">
@@ -53,39 +52,46 @@ export function ProductCard({ product, index }: ProductCardProps) {
           </div>
         </div>
 
-        <div className={`${reversed ? "lg:order-1" : ""} lg:col-span-5 lg:self-center`}>
-          <ul className="flex flex-wrap gap-2" aria-label="Kategorien und Taxonomie">
+        <div className={reversed ? "lg:order-1" : ""}>
+          <p className="eyebrow">{product.category}</p>
+          <h3 className="mt-4 text-3xl font-semibold leading-[1.08] tracking-[-0.035em] text-ink sm:text-[2.55rem]">
+            {product.title}
+          </h3>
+          <p className="mt-5 text-lg leading-8 text-ink/75">{product.shortBenefit}</p>
+          <p className="mt-4 text-base leading-8 text-ink/60">{product.storyTeaser}</p>
+
+          <ul
+            className="mt-5 flex flex-wrap gap-x-3 gap-y-1 text-xs font-medium text-ink/40"
+            aria-label="Produkteigenschaften"
+          >
             {taxonomy.map((item, taxonomyIndex) => (
-              <li
-                key={`${product.id}-${item}-${taxonomyIndex}`}
-                className={`rounded-full border px-3 py-1 text-xs font-semibold ${
-                  taxonomyIndex === 0
-                    ? "border-ink/15 bg-ink text-white"
-                    : "border-ink/10 bg-white/80 text-ink/72"
-                }`}
-              >
+              <li key={`${product.id}-${item}-${taxonomyIndex}`}>
+                {taxonomyIndex > 0 ? <span className="mr-3" aria-hidden>·</span> : null}
                 {item}
               </li>
             ))}
           </ul>
-          <h3 className="mt-4 font-[var(--font-display)] text-4xl leading-[1.02] text-ink sm:text-[2.8rem]">
-            {product.title}
-          </h3>
-          <p className="mt-6 text-lg leading-8 text-ink/78">{product.shortBenefit}</p>
-          <p className="mt-5 text-base leading-8 text-ink/68">{product.storyTeaser}</p>
 
           {product.note ? (
             <p className="mt-5 text-sm leading-7 text-ink/54">Hinweis: {product.note}</p>
           ) : null}
 
-          <div className="mt-8 flex flex-wrap gap-3">
-            {links.map((item) => (
+          <div className="mt-7 flex flex-wrap gap-3">
+            {links.map((item, linkIndex) => (
               <a
                 key={`${product.id}-${item.label}`}
-                className="focus-ring inline-flex min-h-12 items-center gap-2 rounded-full border border-ink/15 bg-white/88 px-5 py-3 text-sm font-semibold text-ink shadow-sm transition hover:border-ink/25 hover:bg-white"
+                className={`focus-ring inline-flex min-h-12 items-center gap-2 rounded-full border px-5 py-3 text-sm font-semibold shadow-sm transition hover:-translate-y-0.5 ${
+                  linkIndex === 0
+                    ? "border-ink bg-ink text-white hover:bg-black"
+                    : "border-ink/12 bg-white text-ink hover:border-ink/25"
+                }`}
                 href={item.url}
                 target="_blank"
-                rel={hasAmazonAssociateTag() ? "noopener noreferrer sponsored nofollow" : "noopener noreferrer nofollow"}
+                rel={
+                  hasAmazonAssociateTag()
+                    ? "noopener noreferrer sponsored nofollow"
+                    : "noopener noreferrer nofollow"
+                }
               >
                 {item.label}
                 <span aria-hidden>↗</span>

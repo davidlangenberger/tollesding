@@ -1,26 +1,23 @@
 export function IntroStory() {
   return (
-    <section className="py-20 sm:py-24">
+    <section className="border-y border-ink/[0.06] bg-white py-16 sm:py-20">
       <div className="section-shell">
-        <div>
+        <div className="mx-auto max-w-4xl text-center">
           <span className="eyebrow">Worum es hier geht</span>
-          <div className="mt-4 space-y-6 text-[1.06rem] leading-8 text-ink/74">
-            <h2 className="font-[var(--font-display)] text-3xl leading-tight text-ink sm:text-[2.45rem]">
-              <em className="not-italic">TollesDing</em> ist keine Produktliste, die jeden
-              Trend mitnimmt. Eher eine ruhige Auswahl der Dinge, die in einem
-              lebhaften Familienalltag dauerhaft geblieben sind.
+          <div className="mt-4 space-y-5 text-base leading-8 text-ink/60 sm:text-[1.05rem]">
+            <h2 className="text-3xl font-semibold leading-tight tracking-[-0.035em] text-ink sm:text-[2.5rem]">
+              <em className="not-italic">TollesDing</em> sammelt keine Trends, sondern
+              Lösungen, die sich langfristig bewähren.
             </h2>
-            <p className="first-letter:float-left first-letter:mr-3 first-letter:pt-1 first-letter:font-[var(--font-display)] first-letter:text-6xl first-letter:leading-[0.82] first-letter:text-ink">
-              Viele dieser Empfehlungen sind nicht spektakulär. Genau das ist der
-              Punkt. Sie lösen kleine, wiederkehrende Probleme, sparen Zeit, bringen
-              Ordnung in Routinen oder machen Dinge einfacher, die mit Kindern
-              erstaunlich oft vorkommen.
+            <p>
+              Gute Alltagshelfer müssen nicht spektakulär sein. Sie lösen wiederkehrende
+              Probleme, sparen Zeit, bringen Ordnung in Routinen und machen die kleinen
+              Dinge einfacher, die im Familienleben ständig vorkommen.
             </p>
             <p>
-              Es geht hier nicht um Masse. Auf diese Seite kommen nur Dinge, die sich
-              bei uns über längere Zeit bewährt haben und im Alltag wirklich etwas
-              verändern. Lieber eine kleinere Auswahl mit Substanz als eine lange Liste
-              voller Mittelmaß.
+              Deshalb bleibt die Auswahl bewusst überschaubar: lieber wenige
+              Empfehlungen mit nachvollziehbarem Nutzen als eine lange Liste voller
+              Mittelmaß.
             </p>
           </div>
         </div>

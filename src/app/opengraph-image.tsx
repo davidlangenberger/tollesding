@@ -54,7 +54,7 @@ export default function OpenGraphImage() {
               opacity: 0.78
             }}
           >
-            Ehrlich kuratiert, persönlich bewährt und direkt verlinkt.
+            Ehrlich ausgewählt, verständlich erklärt und direkt verlinkt.
           </div>
         </div>
         <div
@@ -67,11 +67,11 @@ export default function OpenGraphImage() {
             letterSpacing: "0.14em"
           }}
         >
-          <span>Augsburg</span>
+          <span>Ehrlich ausgewählt</span>
           <span>•</span>
-          <span>Drei Kinder</span>
+          <span>Alltagstauglich</span>
           <span>•</span>
-          <span>Persönlich ausgewählt</span>
+          <span>Kein Ramsch</span>
         </div>
       </div>
     ),

@@ -19,12 +19,12 @@ const principles = [
 
 export function QualityPromise() {
   return (
-    <section id="warum" className="pb-16 pt-20 sm:pb-20 sm:pt-24">
+    <section id="warum" className="border-t border-ink/[0.06] bg-white py-20 sm:py-24">
       <div className="section-shell">
-        <div className="grid gap-10 lg:grid-cols-[0.85fr_1.15fr] lg:items-start">
+        <div className="grid gap-12 lg:grid-cols-[0.8fr_1.2fr] lg:items-start lg:gap-20">
           <div className="max-w-md">
             <span className="eyebrow">Warum diese Dinge?</span>
-            <h2 className="mt-4 font-[var(--font-display)] text-4xl leading-tight text-ink sm:text-5xl">
+            <h2 className="mt-4 text-4xl font-semibold leading-tight tracking-[-0.04em] text-ink sm:text-5xl">
               Weil praktisch oft leise wirkt. Und gerade deshalb bleibt.
             </h2>
           </div>
@@ -32,11 +32,24 @@ export function QualityPromise() {
             {principles.map((item) => (
               <article key={item.title} className="border-t border-ink/10 pt-4">
                 <h3 className="text-lg font-semibold text-ink">{item.title}</h3>
-                <p className="mt-3 text-sm leading-7 text-ink/68">{item.text}</p>
+                <p className="mt-3 text-sm leading-7 text-ink/60">{item.text}</p>
               </article>
             ))}
           </div>
         </div>
+        <aside className="mt-14 border-t border-ink/[0.08] pt-7 text-sm leading-7 text-ink/50 sm:mt-16">
+          <p>
+            Transparenz gehört dazu: Ein Teil der Produktlinks sind Affiliate-Links.
+            Wenn darüber etwas gekauft wird, kann eine kleine Provision entstehen; am
+            Preis ändert sich nichts.
+          </p>
+          <p className="mt-2">
+            Alle Produktbilder auf dieser Seite sind KI-generiert oder visuell
+            überarbeitet. Die Produkte sind vorhanden, einfache Privatfotos wirken für
+            diese Seite jedoch oft nicht passend. Außerdem sollen private Wohnräume und
+            der Garten nicht öffentlich gezeigt werden.
+          </p>
+        </aside>
       </div>
     </section>
   );

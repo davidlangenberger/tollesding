@@ -1,13 +1,7 @@
 import type { Metadata, Viewport } from "next";
-import { Fraunces, Manrope } from "next/font/google";
+import { Manrope } from "next/font/google";
 import { absoluteUrl, siteConfig } from "@/lib/seo";
 import "./globals.css";
-
-const fraunces = Fraunces({
-  subsets: ["latin"],
-  variable: "--font-display",
-  display: "swap"
-});
 
 const manrope = Manrope({
   subsets: ["latin"],
@@ -23,16 +17,16 @@ export async function generateMetadata(): Promise<Metadata> {
       template: `%s | ${siteConfig.name}`
     },
     description: siteConfig.description,
-  keywords: [
-    "Alltagshelfer",
-    "Haushaltshelfer",
-    "Familie",
-    "praktische Dinge",
-    "sinnvolle Gadgets",
-    "Zuhause",
-    "Eltern",
-    "Amazon Empfehlungen"
-  ],
+    keywords: [
+      "Alltagshelfer",
+      "Haushaltshelfer",
+      "Familie",
+      "praktische Dinge",
+      "sinnvolle Gadgets",
+      "Zuhause",
+      "Eltern",
+      "Amazon Empfehlungen"
+    ],
     category: "family",
     openGraph: {
       title: siteConfig.title,
@@ -85,7 +79,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="de" className={`${fraunces.variable} ${manrope.variable}`}>
+    <html lang="de" className={manrope.variable}>
       <body className="font-[var(--font-body)]">{children}</body>
     </html>
   );

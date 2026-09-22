@@ -10,10 +10,10 @@ export function BrandLogo({ compact = false }: BrandLogoProps) {
       <Image
         src="/brand/logo.png"
         alt="TollesDing Logo"
-        width={compact ? 208 : 460}
-        height={compact ? 52 : 112}
+        width={compact ? 176 : 400}
+        height={compact ? 44 : 98}
         priority={compact}
-        className={compact ? "h-10 w-auto" : "h-16 w-auto sm:h-20"}
+        className={compact ? "h-8 w-auto" : "h-14 w-auto sm:h-16"}
       />
     </span>
   );

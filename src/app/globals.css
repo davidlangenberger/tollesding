@@ -11,10 +11,7 @@ html {
 }
 
 body {
-  @apply bg-cream text-ink antialiased;
-  background-image:
-    radial-gradient(circle at top left, rgba(214, 163, 79, 0.08), transparent 30%),
-    linear-gradient(180deg, #fffdf8 0%, #f9f4ec 60%, #fffdf9 100%);
+  @apply bg-[#fbfbf9] text-ink antialiased;
 }
 
 ::selection {
@@ -22,7 +19,7 @@ body {
 }
 
 .section-shell {
-  @apply mx-auto max-w-[74rem] px-5 sm:px-6 lg:px-8;
+  @apply mx-auto max-w-[72rem] px-5 sm:px-8 lg:px-10;
 }
 
 .article-shell {
@@ -30,9 +27,26 @@ body {
 }
 
 .focus-ring {
-  @apply outline-none ring-0 transition focus-visible:ring-4 focus-visible:ring-sun/35 focus-visible:ring-offset-2 focus-visible:ring-offset-cream;
+  @apply outline-none ring-0 transition focus-visible:ring-4 focus-visible:ring-sun/35 focus-visible:ring-offset-2 focus-visible:ring-offset-white;
 }
 
 .eyebrow {
-  @apply inline-block text-[0.72rem] font-semibold uppercase tracking-[0.28em] text-ink/50;
+  @apply inline-block text-[0.7rem] font-semibold uppercase tracking-[0.24em] text-ink/45;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .reveal {
+    animation: reveal 700ms cubic-bezier(0.22, 1, 0.36, 1) both;
+  }
+
+  @keyframes reveal {
+    from {
+      opacity: 0;
+      transform: translateY(14px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
 }
