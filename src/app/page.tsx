@@ -5,7 +5,6 @@ import { Hero } from "@/components/Hero";
 import { IntroStory } from "@/components/IntroStory";
 import { ProductGrid } from "@/components/ProductGrid";
 import { QualityPromise } from "@/components/QualityPromise";
-import { products } from "@/data/products";
 import { absoluteUrl, siteConfig } from "@/lib/seo";
 
 export async function generateMetadata(): Promise<Metadata> {
@@ -54,20 +53,6 @@ export default function Home() {
         about: {
           "@type": "Thing",
           name: "Praktische Alltagshelfer für Familien"
-        },
-        mainEntity: {
-          "@type": "ItemList",
-          itemListElement: products.map((product, index) => ({
-            "@type": "ListItem",
-            position: index + 1,
-            item: {
-              "@type": "Product",
-              name: product.title,
-              category: product.category,
-              description: product.shortBenefit,
-              image: product.image ? absoluteUrl(product.image) : undefined
-            }
-          }))
         }
       }
     ]
