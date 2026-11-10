@@ -13,8 +13,8 @@ export function Footer() {
           <div>
             <BrandLogo compact />
             <p className="mt-3 max-w-sm text-sm leading-7 text-ink/65">
-              <em className="not-italic text-ink">TollesDing</em> kuratiert praktische
-              Dinge, die Familienalltag einfacher und Routinen angenehmer machen.
+              Bei <em className="not-italic text-ink">TollesDing</em> teile ich Dinge,
+              die ich selbst nutze und gern weiterempfehle.
             </p>
           </div>
 

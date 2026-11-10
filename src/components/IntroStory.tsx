@@ -6,18 +6,17 @@ export function IntroStory() {
           <span className="eyebrow">Worum es hier geht</span>
           <div className="mt-4 space-y-5 text-base leading-8 text-ink/60 sm:text-[1.05rem]">
             <h2 className="text-3xl font-semibold leading-tight tracking-[-0.035em] text-ink sm:text-[2.5rem]">
-              <em className="not-italic">TollesDing</em> sammelt keine Trends, sondern
-              Lösungen, die sich langfristig bewähren.
+              <em className="not-italic">TollesDing</em> ist meine Sammlung von Dingen,
+              die sich bei uns zu Hause bewährt haben.
             </h2>
             <p>
-              Gute Alltagshelfer müssen nicht spektakulär sein. Sie lösen wiederkehrende
-              Probleme, sparen Zeit, bringen Ordnung in Routinen und machen die kleinen
-              Dinge einfacher, die im Familienleben ständig vorkommen.
+              Manche davon sind ganz unscheinbar. Sie lösen ein wiederkehrendes Problem,
+              sparen ein paar Handgriffe oder machen eine tägliche Sache einfacher.
             </p>
             <p>
-              Deshalb bleibt die Auswahl bewusst überschaubar: lieber wenige
-              Empfehlungen mit nachvollziehbarem Nutzen als eine lange Liste voller
-              Mittelmaß.
+              Hier landen nur Dinge, die wir wirklich benutzen und die ich auch Freunden
+              empfehlen würde. Wenn dir davon etwas den Alltag leichter macht, freut
+              mich das.
             </p>
           </div>
         </div>

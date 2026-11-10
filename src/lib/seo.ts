@@ -1,11 +1,11 @@
 export const siteConfig = {
   name: "TollesDing",
-  siteUrl: "https://www.tollesding.de",
-  title: "TollesDing | Praktische Dinge, die wirklich helfen",
+  siteUrl: "https://www.tollesding.de/",
+  title: "TollesDing – Praktische Dinge für unseren Familienalltag",
   description:
-    "Sinnvolle Alltagshelfer für Zuhause und Familie: ehrlich ausgewählt, verständlich erklärt und ohne Fake-Tests oder beliebige Produktlisten.",
+    "Hier sammle ich Dinge, die ich selbst ausprobiert habe und die bei uns zu Hause wirklich nützlich sind. Vielleicht ist ja auch ein guter Tipp für dich dabei.",
   ogDescription:
-    "Sinnvolle Alltagshelfer für Zuhause und Familie – ehrlich ausgewählt und verständlich erklärt."
+    "Hier sammle ich Dinge, die ich selbst ausprobiert habe und die bei uns zu Hause wirklich nützlich sind. Vielleicht ist ja auch ein guter Tipp für dich dabei."
 } as const;
 
 export function absoluteUrl(path = "/") {

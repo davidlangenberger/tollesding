@@ -11,10 +11,9 @@ export function ProductGrid() {
             Kleine Dinge. Spürbarer Unterschied.
           </h2>
           <p className="mt-5 text-base leading-8 text-ink/60">
-            Auf <em className="not-italic text-ink">TollesDing</em> landet nicht alles,
-            was ganz okay ist. Hier stehen nur Produkte mit einem klaren, im Alltag
-            nachvollziehbaren Nutzen. Deshalb ist die Liste nicht riesig, sondern
-            bewusst kuratiert und ausführlich erklärt.
+            Auf <em className="not-italic text-ink">TollesDing</em> stehen die Dinge,
+            die bei uns zu Hause wirklich im Einsatz sind. Zu jedem erzähle ich, was
+            daran praktisch ist und wo es uns hilft.
           </p>
         </div>
 

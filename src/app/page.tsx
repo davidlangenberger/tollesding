@@ -9,10 +9,10 @@ import { absoluteUrl, siteConfig } from "@/lib/seo";
 
 export async function generateMetadata(): Promise<Metadata> {
   return {
-    title: siteConfig.title,
+    title: { absolute: siteConfig.title },
     description: siteConfig.description,
     alternates: {
-      canonical: siteConfig.siteUrl
+      canonical: "https://www.tollesding.de/"
     },
     openGraph: {
       title: siteConfig.title,

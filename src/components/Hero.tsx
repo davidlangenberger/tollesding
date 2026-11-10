@@ -10,9 +10,9 @@ export function Hero() {
             Dinge, die den Familienalltag wirklich leichter machen.
           </h1>
           <p className="mx-auto mt-6 max-w-2xl text-base leading-8 text-ink/60 sm:text-lg">
-            Eine ruhige Auswahl sinnvoller Alltagshelfer für Familien, die gute
-            Lösungen schätzen und auf Ramsch, Fake-Tests und endlose Listen verzichten
-            können.
+            Hier sammle ich Dinge, die ich selbst ausprobiert habe und die bei uns zu
+            Hause wirklich nützlich sind. Vielleicht ist ja auch ein guter Tipp für
+            dich dabei.
           </p>
           <div className="mt-8">
             <a

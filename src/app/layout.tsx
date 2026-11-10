@@ -12,22 +12,8 @@ const manrope = Manrope({
 export async function generateMetadata(): Promise<Metadata> {
   return {
     metadataBase: new URL(siteConfig.siteUrl),
-    title: {
-      default: siteConfig.title,
-      template: `%s | ${siteConfig.name}`
-    },
+    title: siteConfig.title,
     description: siteConfig.description,
-    keywords: [
-      "Alltagshelfer",
-      "Haushaltshelfer",
-      "Familie",
-      "praktische Dinge",
-      "sinnvolle Gadgets",
-      "Zuhause",
-      "Eltern",
-      "Amazon Empfehlungen"
-    ],
-    category: "family",
     openGraph: {
       title: siteConfig.title,
       description: siteConfig.ogDescription,

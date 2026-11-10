@@ -54,9 +54,19 @@ export function ProductCard({ product, index }: ProductCardProps) {
 
         <div className={reversed ? "lg:order-1" : ""}>
           <p className="eyebrow">{product.category}</p>
-          <h3 className="mt-4 text-3xl font-semibold leading-[1.08] tracking-[-0.035em] text-ink sm:text-[2.55rem]">
-            {product.title}
-          </h3>
+          <div className="mt-4 flex items-start gap-2">
+            <h3 className="text-3xl font-semibold leading-[1.08] tracking-[-0.035em] text-ink sm:text-[2.55rem]">
+              {product.title}
+            </h3>
+            <a
+              href={`#${product.id}`}
+              aria-label={`Direktlink zu „${product.title}“`}
+              title={`Direktlink zu „${product.title}“`}
+              className="focus-ring mt-1 shrink-0 rounded px-1 text-sm font-normal text-ink/35 hover:text-ink/75"
+            >
+              <span aria-hidden="true">#</span>
+            </a>
+          </div>
           <p className="mt-5 text-lg leading-8 text-ink/75">{product.shortBenefit}</p>
           <p className="mt-4 text-base leading-8 text-ink/60">{product.storyTeaser}</p>
 

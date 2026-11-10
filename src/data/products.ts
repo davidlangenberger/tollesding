@@ -29,7 +29,7 @@ export const AMAZON_ASSOCIATE_TAG: string = "tollesding-21";
 export const products: Product[] = [
   {
     id: "schuhtrockner",
-    title: "Schuhtrockner mit Gebläse",
+    title: "Schuhtrockner mit Gebläse für nasse Fußballschuhe",
     shortBenefit:
       "Gerade für Familien mit sportlichen Kindern ist ein guter Schuhtrockner fast schon ein kleines Rettungsgerät. Nasse Fußballschuhe, feuchte Hallenschuhe oder durchweichte Winterstiefel trocknen deutlich schneller als auf der Heizung, und genau das macht an regnerischen Trainingswochen einen echten Unterschied.",
     storyTeaser:
@@ -94,7 +94,7 @@ export const products: Product[] = [
   },
   {
     id: "airtrack-matte",
-    title: "AirTrack-Turnmatte",
+    title: "AirTrack-Turnmatte für Kinder",
     shortBenefit:
       "Wenn Kinder sich gern bewegen, turnen und auch zuhause nicht stillsitzen wollen, ist eine gute Turnmatte überraschend viel wert. Sie schafft einen sicheren Rahmen für Räder, Kopfstand und kleine Turneinheiten, gerade dann, wenn Garten, Verein oder Spielplatz wetterbedingt ausfallen.",
     storyTeaser:
@@ -124,7 +124,7 @@ export const products: Product[] = [
   },
   {
     id: "bleistiftspitzer-dahle",
-    title: "Elektrischer Bleistiftspitzer",
+    title: "Elektrischer Bleistiftspitzer für Schulkinder",
     shortBenefit:
       "Mit Schulkindern wird Stiftespitzen schnell von einer Nebensache zu einer ziemlich regelmäßigen Aufgabe. Dieses Modell spart dabei nicht nur Zeit, sondern auch Nerven: es arbeitet schnell, sauber und vor allem mit Netzanschluss statt mit ständig leeren Batterien.",
     storyTeaser:
@@ -185,7 +185,7 @@ export const products: Product[] = [
   },
   {
     id: "flaschen-trockner",
-    title: "Flaschen-Trockner",
+    title: "Flaschentrockner für Trinkflaschen",
     shortBenefit:
       "In Haushalten mit mehreren Kindern tauchen jeden Abend erstaunlich viele Trinkflaschen, Deckel und Strohhalme auf. Ein guter Flaschentrockner bringt genau an dieser Stelle Ruhe rein: alles hat einen festen Platz, kippt nicht um und trocknet deutlich ordentlicher als irgendwo am Rand der Spüle.",
     storyTeaser:
